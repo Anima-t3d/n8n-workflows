@@ -120,7 +120,9 @@ function countWorkflowsWithService(service) {
 // Create a filter button element
 function createFilterButton(service, count) {
     const button = document.createElement('button');
-    button.className = 'filter-btn px-3 py-2 rounded-full text-sm font-medium transition-colors duration-200';
+    const isActive = activeFilters.has(service);
+    const buttonClass = isActive ? 'filter-btn-active' : 'filter-btn';
+    button.className = `${buttonClass} px-3 py-2 rounded-full text-sm font-medium transition-colors duration-200`;
     button.innerHTML = `${service} <span class="text-xs opacity-75">(${count})</span>`;
     button.addEventListener('click', () => toggleFilter(service, button));
     return button;
@@ -145,11 +147,8 @@ function clearAllFilters() {
     currentSearchTerm = '';
     searchInput.value = '';
     
-    // Reset all filter buttons
-    const filterButtons = filtersContainer.querySelectorAll('button');
-    filterButtons.forEach(button => {
-        button.className = button.className.replace('filter-btn-active', 'filter-btn');
-    });
+    // Regenerate filter buttons to show correct active states
+    populateFilters();
     
     applyFilters();
 }
@@ -221,20 +220,31 @@ function setupServiceTagClickHandlers() {
         tag.addEventListener('click', (e) => {
             e.preventDefault();
             const serviceName = tag.getAttribute('data-service');
-            addServiceFilter(serviceName);
+            toggleServiceFilter(serviceName);
         });
     });
 }
 
-// Add a service filter programmatically
-function addServiceFilter(serviceName) {
+// Toggle a service filter (add if not present, remove if present)
+function toggleServiceFilter(serviceName) {
     // Expand filters if collapsed
     if (filtersContainer.classList.contains('hidden')) {
         toggleFiltersVisibility();
     }
     
-    // Add to active filters if not already present
-    if (!activeFilters.has(serviceName)) {
+    if (activeFilters.has(serviceName)) {
+        // Remove filter if already active
+        activeFilters.delete(serviceName);
+        
+        // Find and deactivate the corresponding filter button
+        const filterButtons = filtersContainer.querySelectorAll('button');
+        filterButtons.forEach(button => {
+            if (button.textContent.includes(serviceName)) {
+                button.className = button.className.replace('filter-btn-active', 'filter-btn');
+            }
+        });
+    } else {
+        // Add filter if not present
         activeFilters.add(serviceName);
         
         // Find and activate the corresponding filter button
@@ -244,9 +254,19 @@ function addServiceFilter(serviceName) {
                 button.className = button.className.replace('filter-btn', 'filter-btn-active');
             }
         });
-        
-        // Apply the filters
-        applyFilters();
+    }
+    
+    // Regenerate filter buttons to show correct active states
+    populateFilters();
+    
+    // Apply the filters and re-render to update tag states
+    applyFilters();
+}
+
+// Add a service filter programmatically (used internally)
+function addServiceFilter(serviceName) {
+    if (!activeFilters.has(serviceName)) {
+        toggleServiceFilter(serviceName);
     }
 }
 
@@ -309,7 +329,11 @@ function createCategoryBadge(category) {
 
 // Create node/service badge
 function createNodeBadge(node) {
-    return `<button class="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-700 rounded-full mr-1 mb-1 hover:bg-n8n-red hover:text-white transition-colors duration-200 cursor-pointer" data-service="${escapeHtml(node)}">${escapeHtml(node)}</button>`;
+    const isActive = activeFilters.has(node);
+    const baseClasses = "inline-block px-2 py-1 text-xs font-medium rounded-full mr-1 mb-1 transition-colors duration-200 cursor-pointer";
+    const activeClasses = isActive ? "bg-n8n-red text-white" : "bg-gray-100 text-gray-700 hover:bg-n8n-red hover:text-white";
+    
+    return `<button class="${baseClasses} ${activeClasses}" data-service="${escapeHtml(node)}">${escapeHtml(node)}</button>`;
 }
 
 // Show no results message
