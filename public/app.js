@@ -2,6 +2,7 @@
 let allWorkflows = [];
 let filteredWorkflows = [];
 let activeFilters = new Set();
+let activeCategoryFilters = new Set();
 let currentSearchTerm = '';
 
 // DOM elements
@@ -16,6 +17,10 @@ const filterToggleIcon = document.getElementById('filterToggleIcon');
 const resultCount = document.getElementById('resultCount');
 const totalCount = document.getElementById('totalCount');
 const serviceCount = document.getElementById('serviceCount');
+const toggleCategoryFiltersBtn = document.getElementById('toggleCategoryFilters');
+const categoryToggleIcon = document.getElementById('categoryToggleIcon');
+const clearCategoryFiltersBtn = document.getElementById('clearCategoryFilters');
+const categoryFiltersContainer = document.getElementById('categoryFiltersContainer');
 
 // Initialize the application
 async function init() {
@@ -24,6 +29,7 @@ async function init() {
         await loadWorkflows();
         setupEventListeners();
         populateFilters();
+        populateCategoryFilters();
         updateDisplay();
         showLoading(false);
     } catch (error) {
@@ -55,10 +61,17 @@ function setupEventListeners() {
     // Toggle filters button
     toggleFiltersBtn.addEventListener('click', toggleFiltersVisibility);
     
+    // Toggle category filters button
+    toggleCategoryFiltersBtn.addEventListener('click', toggleCategoryFiltersVisibility);
+    
+    // Clear category filters button
+    clearCategoryFiltersBtn.addEventListener('click', clearAllCategoryFilters);
+    
     // Keyboard shortcuts
     document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape') {
             clearAllFilters();
+            clearAllCategoryFilters();
             searchInput.value = '';
             handleSearch();
         }
@@ -110,6 +123,57 @@ function populateFilters() {
     serviceCount.textContent = sortedServices.length;
 }
 
+// Create category filter buttons from unique categories
+function populateCategoryFilters() {
+    const allCategories = new Set();
+    
+    allWorkflows.forEach(workflow => {
+        allCategories.add(workflow.category);
+    });
+    
+    const sortedCategories = Array.from(allCategories).sort();
+    
+    categoryFiltersContainer.innerHTML = '';
+    
+    sortedCategories.forEach(category => {
+        const count = countWorkflowsWithCategory(category);
+        const button = createCategoryFilterButton(category, count);
+        categoryFiltersContainer.appendChild(button);
+    });
+}
+
+// Count workflows that use a specific category
+function countWorkflowsWithCategory(category) {
+    return allWorkflows.filter(workflow => 
+        workflow.category === category
+    ).length;
+}
+
+// Create a category filter button element
+function createCategoryFilterButton(category, count) {
+    const button = document.createElement('button');
+    const isActive = activeCategoryFilters.has(category);
+    const buttonClass = isActive ? 'filter-btn-active' : 'filter-btn';
+    const displayName = category.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+    button.className = `${buttonClass} px-3 py-2 rounded-full text-sm font-medium transition-colors duration-200`;
+    button.innerHTML = `${displayName} <span class=\"text-xs opacity-75\">(${count})</span>`;
+    button.addEventListener('click', () => toggleCategoryFilter(category, button));
+    return button;
+}
+
+// Toggle category filter state
+function toggleCategoryFilter(category, button) {
+    if (activeCategoryFilters.has(category)) {
+        activeCategoryFilters.delete(category);
+        button.className = button.className.replace('filter-btn-active', 'filter-btn');
+    } else {
+        activeCategoryFilters.add(category);
+        button.className = button.className.replace('filter-btn', 'filter-btn-active');
+    }
+    
+    applyFilters();
+}
+
 // Count workflows that use a specific service
 function countWorkflowsWithService(service) {
     return allWorkflows.filter(workflow => 
@@ -153,6 +217,16 @@ function clearAllFilters() {
     applyFilters();
 }
 
+// Clear all active category filters
+function clearAllCategoryFilters() {
+    activeCategoryFilters.clear();
+    
+    // Regenerate category filter buttons to show correct active states
+    populateCategoryFilters();
+    
+    applyFilters();
+}
+
 // Toggle filters visibility
 function toggleFiltersVisibility() {
     const isHidden = filtersContainer.classList.contains('hidden');
@@ -165,6 +239,21 @@ function toggleFiltersVisibility() {
         filtersContainer.classList.add('hidden');
         filtersContainer.classList.remove('flex');
         filterToggleIcon.style.transform = 'rotate(0deg)';
+    }
+}
+
+// Toggle category filters visibility
+function toggleCategoryFiltersVisibility() {
+    const isHidden = categoryFiltersContainer.classList.contains('hidden');
+    
+    if (isHidden) {
+        categoryFiltersContainer.classList.remove('hidden');
+        categoryFiltersContainer.classList.add('flex');
+        categoryToggleIcon.style.transform = 'rotate(180deg)';
+    } else {
+        categoryFiltersContainer.classList.add('hidden');
+        categoryFiltersContainer.classList.remove('flex');
+        categoryToggleIcon.style.transform = 'rotate(0deg)';
     }
 }
 
@@ -181,7 +270,11 @@ function applyFilters() {
         const matchesFilters = activeFilters.size === 0 || 
             Array.from(activeFilters).every(filter => workflow.nodes.includes(filter));
         
-        return matchesSearch && matchesFilters;
+        // Category filter - workflow must include ALL active category filters
+        const matchesCategoryFilters = activeCategoryFilters.size === 0 || 
+            activeCategoryFilters.has(workflow.category);
+        
+        return matchesSearch && matchesFilters && matchesCategoryFilters;
     });
     
     updateDisplay();
@@ -209,8 +302,9 @@ function renderWorkflows() {
         resultsGrid.appendChild(card);
     });
     
-    // Add event listeners to service tag buttons
+    // Add event listeners to service and category tag buttons
     setupServiceTagClickHandlers();
+    setupCategoryTagClickHandlers();
 }
 
 // Setup click handlers for service tags in workflow cards
@@ -221,6 +315,18 @@ function setupServiceTagClickHandlers() {
             e.preventDefault();
             const serviceName = tag.getAttribute('data-service');
             toggleServiceFilter(serviceName);
+        });
+    });
+}
+
+// Setup click handlers for category tags in workflow cards
+function setupCategoryTagClickHandlers() {
+    const categoryTags = resultsGrid.querySelectorAll('[data-category]');
+    categoryTags.forEach(tag => {
+        tag.addEventListener('click', (e) => {
+            e.preventDefault();
+            const categoryName = tag.getAttribute('data-category');
+            toggleCategoryFilterFromCard(categoryName);
         });
     });
 }
@@ -258,6 +364,44 @@ function toggleServiceFilter(serviceName) {
     
     // Regenerate filter buttons to show correct active states
     populateFilters();
+    
+    // Apply the filters and re-render to update tag states
+    applyFilters();
+}
+
+// Toggle a category filter from workflow card (add if not present, remove if present)
+function toggleCategoryFilterFromCard(categoryName) {
+    // Expand category filters if collapsed
+    if (categoryFiltersContainer.classList.contains('hidden')) {
+        toggleCategoryFiltersVisibility();
+    }
+    
+    if (activeCategoryFilters.has(categoryName)) {
+        // Remove filter if already active
+        activeCategoryFilters.delete(categoryName);
+        
+        // Find and deactivate the corresponding filter button
+        const filterButtons = categoryFiltersContainer.querySelectorAll('button');
+        filterButtons.forEach(button => {
+            if (button.textContent.includes(categoryName.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase()))) {
+                button.className = button.className.replace('filter-btn-active', 'filter-btn');
+            }
+        });
+    } else {
+        // Add filter if not present
+        activeCategoryFilters.add(categoryName);
+        
+        // Find and activate the corresponding filter button
+        const filterButtons = categoryFiltersContainer.querySelectorAll('button');
+        filterButtons.forEach(button => {
+            if (button.textContent.includes(categoryName.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase()))) {
+                button.className = button.className.replace('filter-btn', 'filter-btn-active');
+            }
+        });
+    }
+    
+    // Regenerate category filter buttons to show correct active states
+    populateCategoryFilters();
     
     // Apply the filters and re-render to update tag states
     applyFilters();
@@ -321,10 +465,12 @@ function createCategoryBadge(category) {
         'document-processing': 'bg-gray-100 text-gray-800'
     };
     
-    const colorClass = categoryColors[category] || 'bg-gray-100 text-gray-800';
+    const isActive = activeCategoryFilters.has(category);
+    const baseColorClass = categoryColors[category] || 'bg-gray-100 text-gray-800';
+    const activeClass = isActive ? 'bg-n8n-red text-white' : baseColorClass;
     const displayName = category.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
     
-    return `<span class="px-2 py-1 text-xs font-medium rounded-full ${colorClass}">${displayName}</span>`;
+    return `<button class="px-2 py-1 text-xs font-medium rounded-full transition-colors duration-200 cursor-pointer hover:bg-n8n-red hover:text-white ${activeClass}" data-category="${escapeHtml(category)}">${displayName}</button>`;
 }
 
 // Create node/service badge

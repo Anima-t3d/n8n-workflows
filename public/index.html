@@ -81,6 +81,30 @@
             </div>
         </div>
 
+        <!-- Category Filters Section -->
+        <div class="mb-8">
+            <div class="flex flex-wrap items-center gap-4 mb-4">
+                <button 
+                    id="toggleCategoryFilters"
+                    class="flex items-center gap-2 text-lg font-semibold text-gray-900 hover:text-n8n-red transition-colors"
+                >
+                    <span>Filter by Category</span>
+                    <svg id="categoryToggleIcon" class="w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <button 
+                    id="clearCategoryFilters"
+                    class="px-3 py-1 text-sm bg-gray-100 text-gray-600 rounded-full hover:bg-gray-200 transition-colors"
+                >
+                    Clear All
+                </button>
+            </div>
+            <div id="categoryFiltersContainer" class="hidden flex-wrap gap-2">
+                <!-- Category filter buttons will be populated by JavaScript -->
+            </div>
+        </div>
+
         <!-- Stats Section -->
         <div class="mb-6">
             <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-4">
