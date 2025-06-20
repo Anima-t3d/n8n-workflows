@@ -209,6 +209,45 @@ function renderWorkflows() {
         const card = createWorkflowCard(workflow);
         resultsGrid.appendChild(card);
     });
+    
+    // Add event listeners to service tag buttons
+    setupServiceTagClickHandlers();
+}
+
+// Setup click handlers for service tags in workflow cards
+function setupServiceTagClickHandlers() {
+    const serviceTags = resultsGrid.querySelectorAll('[data-service]');
+    serviceTags.forEach(tag => {
+        tag.addEventListener('click', (e) => {
+            e.preventDefault();
+            const serviceName = tag.getAttribute('data-service');
+            addServiceFilter(serviceName);
+        });
+    });
+}
+
+// Add a service filter programmatically
+function addServiceFilter(serviceName) {
+    // Expand filters if collapsed
+    if (filtersContainer.classList.contains('hidden')) {
+        toggleFiltersVisibility();
+    }
+    
+    // Add to active filters if not already present
+    if (!activeFilters.has(serviceName)) {
+        activeFilters.add(serviceName);
+        
+        // Find and activate the corresponding filter button
+        const filterButtons = filtersContainer.querySelectorAll('button');
+        filterButtons.forEach(button => {
+            if (button.textContent.includes(serviceName)) {
+                button.className = button.className.replace('filter-btn', 'filter-btn-active');
+            }
+        });
+        
+        // Apply the filters
+        applyFilters();
+    }
 }
 
 // Create a workflow card element
@@ -270,7 +309,7 @@ function createCategoryBadge(category) {
 
 // Create node/service badge
 function createNodeBadge(node) {
-    return `<span class="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-700 rounded-full mr-1 mb-1">${escapeHtml(node)}</span>`;
+    return `<button class="inline-block px-2 py-1 text-xs font-medium bg-gray-100 text-gray-700 rounded-full mr-1 mb-1 hover:bg-n8n-red hover:text-white transition-colors duration-200 cursor-pointer" data-service="${escapeHtml(node)}">${escapeHtml(node)}</button>`;
 }
 
 // Show no results message
