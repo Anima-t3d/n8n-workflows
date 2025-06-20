@@ -11,6 +11,8 @@ const resultsGrid = document.getElementById('resultsGrid');
 const noResults = document.getElementById('noResults');
 const loading = document.getElementById('loading');
 const clearFiltersBtn = document.getElementById('clearFilters');
+const toggleFiltersBtn = document.getElementById('toggleFilters');
+const filterToggleIcon = document.getElementById('filterToggleIcon');
 const resultCount = document.getElementById('resultCount');
 const totalCount = document.getElementById('totalCount');
 const serviceCount = document.getElementById('serviceCount');
@@ -49,6 +51,9 @@ function setupEventListeners() {
     
     // Clear filters button
     clearFiltersBtn.addEventListener('click', clearAllFilters);
+    
+    // Toggle filters button
+    toggleFiltersBtn.addEventListener('click', toggleFiltersVisibility);
     
     // Keyboard shortcuts
     document.addEventListener('keydown', (e) => {
@@ -147,6 +152,21 @@ function clearAllFilters() {
     });
     
     applyFilters();
+}
+
+// Toggle filters visibility
+function toggleFiltersVisibility() {
+    const isHidden = filtersContainer.classList.contains('hidden');
+    
+    if (isHidden) {
+        filtersContainer.classList.remove('hidden');
+        filtersContainer.classList.add('flex');
+        filterToggleIcon.style.transform = 'rotate(180deg)';
+    } else {
+        filtersContainer.classList.add('hidden');
+        filtersContainer.classList.remove('flex');
+        filterToggleIcon.style.transform = 'rotate(0deg)';
+    }
 }
 
 // Apply search and filter logic

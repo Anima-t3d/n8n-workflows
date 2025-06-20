@@ -60,7 +60,15 @@
         <!-- Filters Section -->
         <div class="mb-8">
             <div class="flex flex-wrap items-center gap-4 mb-4">
-                <h2 class="text-lg font-semibold text-gray-900">Filter by Service:</h2>
+                <button 
+                    id="toggleFilters"
+                    class="flex items-center gap-2 text-lg font-semibold text-gray-900 hover:text-n8n-red transition-colors"
+                >
+                    <span>Filter by Service</span>
+                    <svg id="filterToggleIcon" class="w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
                 <button 
                     id="clearFilters"
                     class="px-3 py-1 text-sm bg-gray-100 text-gray-600 rounded-full hover:bg-gray-200 transition-colors"
@@ -68,7 +76,7 @@
                     Clear All
                 </button>
             </div>
-            <div id="filtersContainer" class="flex flex-wrap gap-2">
+            <div id="filtersContainer" class="hidden flex-wrap gap-2">
                 <!-- Filter buttons will be populated by JavaScript -->
             </div>
         </div>
