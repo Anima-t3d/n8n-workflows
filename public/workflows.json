@@ -1,0 +1,5195 @@
+[
+  {
+    "name": "Markdown Report Generation",
+    "nodes": [
+      "Function",
+      "HTTP Request",
+      "Item Lists",
+      "Manual Trigger",
+      "Markdown",
+      "Merge",
+      "Move Binary Data",
+      "Send Email"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/analytics/1690-markdown-report-generation/workflow.json",
+    "category": "analytics"
+  },
+  {
+    "name": "Markdown Timesheet Report Generation",
+    "nodes": [
+      "Function",
+      "HTTP Request",
+      "Item Lists",
+      "Manual Trigger",
+      "Markdown",
+      "Merge",
+      "Move Binary Data",
+      "Send Email"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/analytics/1692-markdown-timesheet-report-generation/workflow.json",
+    "category": "analytics"
+  },
+  {
+    "name": "Report Number Of Weekly Created Records In An App",
+    "nodes": [
+      "Code",
+      "Filter",
+      "Item Lists",
+      "Notion",
+      "Schedule Trigger",
+      "Slack"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/analytics/1931-report-number-of-weekly-created-records-in-an-app/workflow.json",
+    "category": "analytics"
+  },
+  {
+    "name": "Ai Customer Feedback Sentiment Analysis",
+    "nodes": [
+      "Form Trigger",
+      "Google Sheets",
+      "Merge",
+      "Open Ai"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/analytics/1996-ai-customer-feedback-sentiment-analysis/workflow.json",
+    "category": "analytics"
+  },
+  {
+    "name": "Send Instagram Statistics To Mattermost",
+    "nodes": [
+      "Cron",
+      "Date & Time",
+      "Function",
+      "Google Sheets",
+      "Mattermost"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/analytics/812-send-instagram-statistics-to-mattermost/workflow.json",
+    "category": "analytics"
+  },
+  {
+    "name": "Create A Short Url And Get The Statistics Of The Url",
+    "nodes": [
+      "Manual Trigger",
+      "Yourls"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/analytics/815-create-a-short-url-and-get-the-statistics-of-the-url/workflow.json",
+    "category": "analytics"
+  },
+  {
+    "name": "Webhook Returning Xml",
+    "nodes": [
+      "Respond to Webhook",
+      "Set",
+      "Webhook",
+      "XML"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/api-webhooks/119-webhook-returning-xml/workflow.json",
+    "category": "api-webhooks"
+  },
+  {
+    "name": "Use Redis To Rate Limit Your Low Code Api",
+    "nodes": [
+      "Airtable",
+      "Function",
+      "IF",
+      "Redis",
+      "Set",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/api-webhooks/1236-use-redis-to-rate-limit-your-low-code-api/workflow.json",
+    "category": "api-webhooks"
+  },
+  {
+    "name": "Handle Verification For Twitter Webhook",
+    "nodes": [
+      "Crypto",
+      "Set",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/api-webhooks/1440-handle-verification-for-twitter-webhook/workflow.json",
+    "category": "api-webhooks"
+  },
+  {
+    "name": "Automate Testimonials In Strapi With N8n",
+    "nodes": [
+      "Google Cloud Natural Language",
+      "IF",
+      "Interval",
+      "Merge",
+      "Set",
+      "Strapi",
+      "Twitter",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/api-webhooks/1535-automate-testimonials-in-strapi-with-n8n/workflow.json",
+    "category": "api-webhooks"
+  },
+  {
+    "name": "Manage Adobe Acrobat E Signatures With Webhooks",
+    "nodes": [
+      "Function",
+      "Respond to Webhook",
+      "Set",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/api-webhooks/1588-manage-adobe-acrobat-e-signatures-with-webhooks/workflow.json",
+    "category": "api-webhooks"
+  },
+  {
+    "name": "Send Rss Feed Data To Webhook",
+    "nodes": [
+      "Cron",
+      "HTTP Request",
+      "IF",
+      "Manual Trigger",
+      "Merge",
+      "Mongo Db",
+      "No Op",
+      "Rss Feed Read",
+      "Split In Batches"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/api-webhooks/159-send-rss-feed-data-to-webhook/workflow.json",
+    "category": "api-webhooks"
+  },
+  {
+    "name": "Pulling Data From Services That N8n Doesnt Have A Pre Built Integration For",
+    "nodes": [
+      "HTTP Request",
+      "Html Extract",
+      "IF",
+      "Item Lists",
+      "Manual Trigger",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/api-webhooks/1748-pulling-data-from-services-that-n8n-doesnt-have-a-pre-built-integration-for/workflow.json",
+    "category": "api-webhooks"
+  },
+  {
+    "name": "Creating An Api Endpoint",
+    "nodes": [
+      "Respond to Webhook",
+      "Set",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/api-webhooks/1750-creating-an-api-endpoint/workflow.json",
+    "category": "api-webhooks"
+  },
+  {
+    "name": "Api Queries Data From Graphql",
+    "nodes": [
+      "Function",
+      "Graphql",
+      "Set",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/api-webhooks/216-api-queries-data-from-graphql/workflow.json",
+    "category": "api-webhooks"
+  },
+  {
+    "name": "Low Code Api For Flutterflow Apps",
+    "nodes": [
+      "Aggregate",
+      "Customer Datastore",
+      "Respond to Webhook",
+      "Set",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/api-webhooks/2274-low-code-api-for-flutterflow-apps/workflow.json",
+    "category": "api-webhooks"
+  },
+  {
+    "name": "Visual Regression Testing With Apify And Ai Vision Model",
+    "nodes": [
+      "@n8n/langchain.chain Llm",
+      "@n8n/langchain.lm Chat Google Gemini",
+      "@n8n/langchain.output Parser Structured",
+      "Aggregate",
+      "Filter",
+      "Google Drive",
+      "Google Sheets",
+      "HTTP Request",
+      "Linear",
+      "Manual Trigger",
+      "Merge",
+      "Schedule Trigger",
+      "Set",
+      "Split In Batches",
+      "Wait"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/api-webhooks/2419-visual-regression-testing-with-apify-and-ai-vision-model/workflow.json",
+    "category": "api-webhooks"
+  },
+  {
+    "name": "Manipulate Pdf With Adobe Developer Api",
+    "nodes": [
+      "Dropbox",
+      "Execute Workflow Trigger",
+      "HTTP Request",
+      "Manual Trigger",
+      "Merge",
+      "Set",
+      "Switch",
+      "Wait"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/api-webhooks/2424-manipulate-pdf-with-adobe-developer-api/workflow.json",
+    "category": "api-webhooks"
+  },
+  {
+    "name": "Monitor Multiple Github Repos Via Webhook",
+    "nodes": [
+      "HTTP Request",
+      "Manual Trigger",
+      "Set",
+      "Slack",
+      "Split Out",
+      "Telegram",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/api-webhooks/2435-monitor-multiple-github-repos-via-webhook/workflow.json",
+    "category": "api-webhooks"
+  },
+  {
+    "name": "Api Schema Extractor",
+    "nodes": [
+      "@n8n/langchain.document Default Data Loader",
+      "@n8n/langchain.embeddings Google Gemini",
+      "@n8n/langchain.information Extractor",
+      "@n8n/langchain.lm Chat Google Gemini",
+      "@n8n/langchain.text Classifier",
+      "@n8n/langchain.text Splitter Recursive Character Text Splitter",
+      "@n8n/langchain.vector Store Qdrant",
+      "Aggregate",
+      "Code",
+      "Execute Workflow",
+      "Execute Workflow Trigger",
+      "Execution Data",
+      "Filter",
+      "Google Drive",
+      "Google Sheets",
+      "HTTP Request",
+      "IF",
+      "Manual Trigger",
+      "Remove Duplicates",
+      "Set",
+      "Split In Batches",
+      "Split Out",
+      "Switch",
+      "Wait"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/api-webhooks/2658-api-schema-extractor/workflow.json",
+    "category": "api-webhooks"
+  },
+  {
+    "name": "Webhooks With Mattermost",
+    "nodes": [
+      "HTTP Request",
+      "Mattermost",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/api-webhooks/351-webhooks-with-mattermost/workflow.json",
+    "category": "api-webhooks"
+  },
+  {
+    "name": "Send Github Notifications To Discord Webhook",
+    "nodes": [
+      "Cron",
+      "Discord",
+      "Function",
+      "HTTP Request",
+      "IF"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/api-webhooks/471-send-github-notifications-to-discord-webhook/workflow.json",
+    "category": "api-webhooks"
+  },
+  {
+    "name": "Get The Last Five Spacex Launches From The Spacex Land Api Using Graphql",
+    "nodes": [
+      "Graphql",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/api-webhooks/558-get-the-last-five-spacex-launches-from-the-spacex-land-api-using-graphql/workflow.json",
+    "category": "api-webhooks"
+  },
+  {
+    "name": "Store Data Received From Webhook In Json",
+    "nodes": [
+      "HTTP Request",
+      "Manual Trigger",
+      "Move Binary Data",
+      "Write Binary File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/api-webhooks/652-store-data-received-from-webhook-in-json/workflow.json",
+    "category": "api-webhooks"
+  },
+  {
+    "name": "Create Update And Get An Entry In Strapi",
+    "nodes": [
+      "Manual Trigger",
+      "Set",
+      "Strapi"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/api-webhooks/779-create-update-and-get-an-entry-in-strapi/workflow.json",
+    "category": "api-webhooks"
+  },
+  {
+    "name": "Create An Event In Posthog When A Request Is Made To A Webhook Url",
+    "nodes": [
+      "Post Hog",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/api-webhooks/968-create-an-event-in-posthog-when-a-request-is-made-to-a-webhook-url/workflow.json",
+    "category": "api-webhooks"
+  },
+  {
+    "name": "Using The Merge Node Merge By Key",
+    "nodes": [
+      "Function",
+      "Merge"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/100-using-the-merge-node-merge-by-key/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Write Json To Disk Binary",
+    "nodes": [
+      "Function",
+      "Write Binary File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/101-write-json-to-disk-binary/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Create Update And Get An Object From Bubble",
+    "nodes": [
+      "Bubble"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1041-create-update-and-get-an-object-from-bubble/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Send Location Updates Of The Iss Every Minute To A Queue In Aws Sqs",
+    "nodes": [
+      "Aws Sqs",
+      "Cron",
+      "HTTP Request",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1047-send-location-updates-of-the-iss-every-minute-to-a-queue-in-aws-sqs/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Create Update And Get An Item From Webflow",
+    "nodes": [
+      "Manual Trigger",
+      "Webflow"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1048-create-update-and-get-an-item-from-webflow/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Git Backup Of Workflows And Credentials",
+    "nodes": [
+      "Cron",
+      "Execute Command",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1053-git-backup-of-workflows-and-credentials/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Scrape And Store Data From Multiple Website Pages",
+    "nodes": [
+      "Execute Command",
+      "Function",
+      "Function Item",
+      "HTTP Request",
+      "Html Extract",
+      "IF",
+      "Manual Trigger",
+      "Mongo Db",
+      "Read Binary File",
+      "Set",
+      "Split In Batches",
+      "Uproc",
+      "Write Binary File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1073-scrape-and-store-data-from-multiple-website-pages/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Add Liked Songs To A Spotify Monthly Playlist",
+    "nodes": [
+      "Code",
+      "Filter",
+      "IF",
+      "Merge",
+      "No Op",
+      "Noco Db",
+      "Schedule Trigger",
+      "Split In Batches",
+      "Spotify"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1074-add-liked-songs-to-a-spotify-monthly-playlist/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Build A Self Hosted Url Shortener With A Dashboard",
+    "nodes": [
+      "Airtable",
+      "Crypto",
+      "Function",
+      "IF",
+      "Set",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1093-build-a-self-hosted-url-shortener-with-a-dashboard/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Add Articles To A Notion List By Accessing A Discord Slash Command",
+    "nodes": [
+      "HTTP Request",
+      "Html Extract",
+      "IF",
+      "Notion",
+      "Set",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1110-add-articles-to-a-notion-list-by-accessing-a-discord-slash-command/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Create Transcription Jobs Using Aws Transcribe",
+    "nodes": [
+      "Aws S3",
+      "Aws Transcribe",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1111-create-transcription-jobs-using-aws-transcribe/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Create Update And Get A Task In Microsoft To Do",
+    "nodes": [
+      "Manual Trigger",
+      "Microsoft To Do"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1114-create-update-and-get-a-task-in-microsoft-to-do/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Manage Changes Using The Git Node",
+    "nodes": [
+      "Git",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1115-manage-changes-using-the-git-node/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Add A Check Condition For A Loop In N8n",
+    "nodes": [
+      "IF",
+      "Manual Trigger",
+      "No Op",
+      "Twitter"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1130-add-a-check-condition-for-a-loop-in-n8n/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Trigger A Build In Travis Ci When Code Changes Are Push To A Github Repo",
+    "nodes": [
+      "Github Trigger",
+      "IF",
+      "No Op",
+      "Travis Ci"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1132-trigger-a-build-in-travis-ci-when-code-changes-are-push-to-a-github-repo/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Merge Data For Multiple Executions",
+    "nodes": [
+      "Function",
+      "IF",
+      "Manual Trigger",
+      "Rss Feed Read",
+      "Split In Batches"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1160-merge-data-for-multiple-executions/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Backup Workflows To Github",
+    "nodes": [
+      "Cron",
+      "Function",
+      "Github",
+      "HTTP Request",
+      "Merge"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1222-backup-workflows-to-github/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Avoid Rate Limiting By Batching Http Requests",
+    "nodes": [
+      "Customer Datastore",
+      "HTTP Request",
+      "Manual Trigger",
+      "No Op",
+      "Split In Batches",
+      "Wait"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1243-avoid-rate-limiting-by-batching-http-requests/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Deploy Site When New Content Gets Added",
+    "nodes": [
+      "Netlify",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1254-deploy-site-when-new-content-gets-added/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Assign Issues To Interested Contributors",
+    "nodes": [
+      "Github",
+      "Github Trigger",
+      "IF",
+      "No Op",
+      "Switch"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1274-assign-issues-to-interested-contributors/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Get Top 5 Products On Product Hunt Every Hour",
+    "nodes": [
+      "Cron",
+      "Discord",
+      "Graphql",
+      "Item Lists",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1298-get-top-5-products-on-product-hunt-every-hour/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Serve A Static Html Page When A Link Is Accessed",
+    "nodes": [
+      "Respond to Webhook",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1306-serve-a-static-html-page-when-a-link-is-accessed/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Get Only New Rss With Photo",
+    "nodes": [
+      "Cron",
+      "Function",
+      "Html Extract",
+      "Rss Feed Read",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1309-get-only-new-rss-with-photo/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Transf Meeting Booking Into Notion S Task With Verified Information",
+    "nodes": [
+      "Calendly Trigger",
+      "Dropcontact",
+      "Notion"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1325-transf-meeting-booking-into-notion-s-task-with-verified-information/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Use Regex To Select Date",
+    "nodes": [
+      "IF",
+      "Manual Trigger",
+      "No Op",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1328-use-regex-to-select-date/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Demonstrates The Use Of The Item Index Method",
+    "nodes": [
+      "Customer Datastore",
+      "HTTP Request",
+      "Manual Trigger",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1330-demonstrates-the-use-of-the-item-index-method/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Create An Issue On Gitlab On Every Github Release",
+    "nodes": [
+      "Cron",
+      "Function",
+      "Github",
+      "Gitlab",
+      "Merge"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1349-create-an-issue-on-gitlab-on-every-github-release/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Join Data From Postgres And Mysql",
+    "nodes": [
+      "Function",
+      "HTTP Request",
+      "Merge",
+      "My Sql",
+      "Postgres",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1363-join-data-from-postgres-and-mysql/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Cron Routines With Telegram",
+    "nodes": [
+      "Cron",
+      "Manual Trigger",
+      "My Sql",
+      "Telegram",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1364-cron-routines-with-telegram/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Create A New User In Notion Based On The Signup Form Submission",
+    "nodes": [
+      "Function",
+      "IF",
+      "Merge",
+      "Notion",
+      "Set",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1373-create-a-new-user-in-notion-based-on-the-signup-form-submission/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Create A New Team For A Project In Notion",
+    "nodes": [
+      "Function",
+      "IF",
+      "Merge",
+      "Notion",
+      "Set",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1374-create-a-new-team-for-a-project-in-notion/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Share Jokes On Twitter Automatically",
+    "nodes": [
+      "Cron",
+      "HTTP Request",
+      "Twitter"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1376-share-jokes-on-twitter-automatically/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Search And Download Torrents Using Transmission Daemon",
+    "nodes": [
+      "Function Item",
+      "HTTP Request",
+      "IF",
+      "Telegram",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1381-search-and-download-torrents-using-transmission-daemon/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Send Automated Daily Reminders On Telegram",
+    "nodes": [
+      "Cron",
+      "Function Item",
+      "Telegram"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1387-send-automated-daily-reminders-on-telegram/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Extract And Store Text From Chat Images Using Aws S3",
+    "nodes": [
+      "Airtable",
+      "Aws S3",
+      "Aws Textract",
+      "Telegram Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1393-extract-and-store-text-from-chat-images-using-aws-s3/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Plex Automatic Qbittorent Throttler",
+    "nodes": [
+      "HTTP Request",
+      "IF",
+      "No Op",
+      "Set",
+      "Switch",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1415-plex-automatic-qbittorent-throttler/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Create An Rss Feed Based On A Website S Content",
+    "nodes": [
+      "Date & Time",
+      "Function",
+      "Function Item",
+      "HTTP Request",
+      "Html Extract",
+      "Item Lists",
+      "Manual Trigger",
+      "Respond to Webhook",
+      "Set",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1418-create-an-rss-feed-based-on-a-website-s-content/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Tiny Tiny Rss New Stared Article Saved To Wallabag",
+    "nodes": [
+      "Cron",
+      "Function",
+      "HTTP Request",
+      "IF",
+      "Manual Trigger",
+      "Merge",
+      "No Op"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1423-tiny-tiny-rss-new-stared-article-saved-to-wallabag/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Send A Random Recipe Once A Day To Telegram",
+    "nodes": [
+      "Airtable",
+      "Cron",
+      "HTTP Request",
+      "IF",
+      "Set",
+      "Telegram",
+      "Telegram Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1425-send-a-random-recipe-once-a-day-to-telegram/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Automate Assigning Github Issues",
+    "nodes": [
+      "Github",
+      "Github Trigger",
+      "IF",
+      "No Op",
+      "Switch"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1442-automate-assigning-github-issues/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Post Rss Feed Items From Yesterday To Slack",
+    "nodes": [
+      "Cron",
+      "Date & Time",
+      "Function",
+      "IF",
+      "Rss Feed Read",
+      "Slack"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1469-post-rss-feed-items-from-yesterday-to-slack/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Standup Bot 1 4 Initialize",
+    "nodes": [
+      "Manual Trigger",
+      "Move Binary Data",
+      "Set",
+      "Write Binary File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1472-standup-bot-1-4-initialize/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Standup Bot 2 4 Read Config",
+    "nodes": [
+      "Manual Trigger",
+      "Move Binary Data",
+      "Read Binary File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1473-standup-bot-2-4-read-config/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Standup Bot 3 4 Override Config",
+    "nodes": [
+      "Manual Trigger",
+      "Move Binary Data",
+      "Write Binary File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1474-standup-bot-3-4-override-config/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Standup Bot 4 4 Worker",
+    "nodes": [
+      "Cron",
+      "Execute Workflow",
+      "Function",
+      "HTTP Request",
+      "IF",
+      "Mattermost",
+      "No Op",
+      "Switch",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1475-standup-bot-4-4-worker/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Sum Or Aggregate A Column Of Spreadsheet Or Table Data",
+    "nodes": [
+      "Function",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1497-sum-or-aggregate-a-column-of-spreadsheet-or-table-data/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Back Up Your N8n Workflows To Github",
+    "nodes": [
+      "Code",
+      "Execute Workflow",
+      "Execute Workflow Trigger",
+      "Github",
+      "HTTP Request",
+      "IF",
+      "Manual Trigger",
+      "Merge",
+      "N8n",
+      "No Op",
+      "Schedule Trigger",
+      "Set",
+      "Slack",
+      "Split In Batches",
+      "Switch"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1534-back-up-your-n8n-workflows-to-github/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Get Data From Multiple Rss Feeds To Telegram",
+    "nodes": [
+      "Cron",
+      "Function",
+      "IF",
+      "Rss Feed Read",
+      "Split In Batches",
+      "Telegram"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1554-get-data-from-multiple-rss-feeds-to-telegram/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Get Execute Command Data And Transfer To Json",
+    "nodes": [
+      "Execute Command",
+      "Function Item",
+      "IF"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/156-get-execute-command-data-and-transfer-to-json/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Push Your Public Ip To Namecheaps Dynamic Dns",
+    "nodes": [
+      "Cron",
+      "Function",
+      "HTTP Request",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1576-push-your-public-ip-to-namecheaps-dynamic-dns/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Send New Youtube Channel Videos To Telegram",
+    "nodes": [
+      "Function",
+      "Interval",
+      "Set",
+      "Telegram",
+      "You Tube"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1599-send-new-youtube-channel-videos-to-telegram/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Extend N8n With Additional Tools",
+    "nodes": [
+      "Execute Command",
+      "Function",
+      "HTTP Request",
+      "IF",
+      "Merge",
+      "Read Binary File",
+      "Set",
+      "Spreadsheet File",
+      "Switch",
+      "Telegram",
+      "Telegram Trigger",
+      "Write Binary File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1605-extend-n8n-with-additional-tools/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Split Out Binary Data",
+    "nodes": [
+      "Compression",
+      "Function",
+      "HTTP Request",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1621-split-out-binary-data/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Very Quick Quickstart",
+    "nodes": [
+      "Customer Datastore",
+      "Manual Trigger",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1700-very-quick-quickstart/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Move Data Between Json And Spreadsheets",
+    "nodes": [
+      "Gmail",
+      "Google Sheets",
+      "HTTP Request",
+      "Move Binary Data",
+      "Set",
+      "Spreadsheet File",
+      "Write Binary File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1739-move-data-between-json-and-spreadsheets/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Working With Dates And Times",
+    "nodes": [
+      "Date & Time",
+      "Manual Trigger",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1744-working-with-dates-and-times/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Filtering And Branching Data",
+    "nodes": [
+      "Customer Datastore",
+      "IF",
+      "Manual Trigger",
+      "Switch"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1746-filtering-and-branching-data/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Joining Different Datasets",
+    "nodes": [
+      "Code",
+      "Manual Trigger",
+      "Merge"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1747-joining-different-datasets/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Rate Limiting And Waiting For External Events",
+    "nodes": [
+      "Customer Datastore",
+      "IF",
+      "Manual Trigger",
+      "N8n Training Customer Messenger",
+      "No Op",
+      "Set",
+      "Split In Batches",
+      "Wait"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1749-rate-limiting-and-waiting-for-external-events/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Preparing Data To Be Sent To A Service",
+    "nodes": [
+      "Customer Datastore",
+      "Google Sheets",
+      "Manual Trigger",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1751-preparing-data-to-be-sent-to-a-service/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Rss Feed For Ard Audiothek Podcasts",
+    "nodes": [
+      "Function",
+      "HTTP Request",
+      "Html Extract",
+      "Item Lists",
+      "Manual Trigger",
+      "Respond to Webhook",
+      "Set",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1799-rss-feed-for-ard-audiothek-podcasts/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "N8n Nodemation Basic Getting Started On The Workflow Canvas 1 3",
+    "nodes": [
+      "Function Item",
+      "Interval",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/18-n8n-nodemation-basic-getting-started-on-the-workflow-canvas-1-3/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Merge Multiple Runs Into One",
+    "nodes": [
+      "Code",
+      "Customer Datastore",
+      "IF",
+      "Manual Trigger",
+      "No Op",
+      "Split In Batches",
+      "Wait"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1814-merge-multiple-runs-into-one/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Import Csv Into Mysql",
+    "nodes": [
+      "Manual Trigger",
+      "My Sql",
+      "Read Binary File",
+      "Spreadsheet File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1839-import-csv-into-mysql/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Turn On A Light To A Specific Color On Any Update In Github Repository",
+    "nodes": [
+      "Github Trigger",
+      "Home Assistant"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1856-turn-on-a-light-to-a-specific-color-on-any-update-in-github-repository/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Get Workflows Affected By 0 214 3 Migration",
+    "nodes": [
+      "Code",
+      "HTML",
+      "N8n",
+      "Respond to Webhook",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1892-get-workflows-affected-by-0-214-3-migration/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Reddit Ai Digest",
+    "nodes": [
+      "IF",
+      "Manual Trigger",
+      "Merge",
+      "Open Ai",
+      "Reddit",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1895-reddit-ai-digest/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "N8n Nodemation Basic Creating Your First Simple Workflow 2 3",
+    "nodes": [
+      "Function Item",
+      "HTTP Request",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/19-n8n-nodemation-basic-creating-your-first-simple-workflow-2-3/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Openai Examples Chatgpt Dalle 2 Whisper 1 5 In 1",
+    "nodes": [
+      "Code",
+      "HTML",
+      "HTTP Request",
+      "Manual Trigger",
+      "Open Ai",
+      "Read Binary Files",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1900-openai-examples-chatgpt-dalle-2-whisper-1-5-in-1/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Count The Items Returned By A Node",
+    "nodes": [
+      "Customer Datastore",
+      "Manual Trigger",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1913-count-the-items-returned-by-a-node/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Merge Binary Objects On Multiple Items Into A Single Item",
+    "nodes": [
+      "Code",
+      "HTTP Request",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1916-merge-binary-objects-on-multiple-items-into-a-single-item/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Load Data Into Snowflake",
+    "nodes": [
+      "HTTP Request",
+      "Manual Trigger",
+      "Set",
+      "Snowflake",
+      "Spreadsheet File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1918-load-data-into-snowflake/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Comparing Data With The Compare Datasets Node",
+    "nodes": [
+      "Code",
+      "Compare Datasets",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1943-comparing-data-with-the-compare-datasets-node/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Compare Sql Datasets",
+    "nodes": [
+      "Compare Datasets",
+      "Manual Trigger",
+      "My Sql",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1944-compare-sql-datasets/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Sql To Xml Export With Xsl Template Formatting",
+    "nodes": [
+      "HTML",
+      "HTTP Request",
+      "Item Lists",
+      "Move Binary Data",
+      "My Sql",
+      "Respond to Webhook",
+      "Set",
+      "Webhook",
+      "XML"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1947-sql-to-xml-export-with-xsl-template-formatting/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Suggest Meeting Slots Using Ai",
+    "nodes": [
+      "@n8n/langchain.agent",
+      "@n8n/langchain.chain Llm",
+      "@n8n/langchain.lm Chat Open Ai",
+      "@n8n/langchain.output Parser Structured",
+      "@n8n/langchain.tool Workflow",
+      "Execute Workflow Trigger",
+      "Filter",
+      "Gmail",
+      "Gmail Trigger",
+      "Google Calendar",
+      "IF",
+      "Item Lists",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1953-suggest-meeting-slots-using-ai/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Custom Langchain Agent Written In Javascript",
+    "nodes": [
+      "@n8n/langchain.agent",
+      "@n8n/langchain.code",
+      "@n8n/langchain.lm Chat Open Ai",
+      "@n8n/langchain.lm Open Ai",
+      "Manual Trigger",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1955-custom-langchain-agent-written-in-javascript/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Ai Summarize Podcast Episode And Enhance Using Wikipedia",
+    "nodes": [
+      "@n8n/langchain.agent",
+      "@n8n/langchain.chain Llm",
+      "@n8n/langchain.chain Summarization",
+      "@n8n/langchain.document Json Input Loader",
+      "@n8n/langchain.lm Chat Open Ai",
+      "@n8n/langchain.output Parser Structured",
+      "@n8n/langchain.text Splitter Recursive Character Text Splitter",
+      "@n8n/langchain.tool Wikipedia",
+      "Code",
+      "Gmail",
+      "Item Lists",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1956-ai-summarize-podcast-episode-and-enhance-using-wikipedia/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Force Ai To Use A Specific Output Format",
+    "nodes": [
+      "@n8n/langchain.chain Llm",
+      "@n8n/langchain.lm Chat Open Ai",
+      "@n8n/langchain.output Parser Autofixing",
+      "@n8n/langchain.output Parser Structured",
+      "Manual Trigger",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1957-force-ai-to-use-a-specific-output-format/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Slack Chatbot Powered By Ai",
+    "nodes": [
+      "@n8n/langchain.agent",
+      "@n8n/langchain.lm Chat Open Ai",
+      "@n8n/langchain.memory Buffer Window",
+      "@n8n/langchain.tool Serp Api",
+      "@n8n/langchain.tool Wikipedia",
+      "IF",
+      "No Op",
+      "Slack",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1961-slack-chatbot-powered-by-ai/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Itemmatching Usage Example",
+    "nodes": [
+      "Code",
+      "Customer Datastore",
+      "Manual Trigger",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1966-itemmatching-usage-example/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Authenticate A User In A Workflow With Openid Connect",
+    "nodes": [
+      "Code",
+      "HTML",
+      "HTTP Request",
+      "IF",
+      "Respond to Webhook",
+      "Set",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1997-authenticate-a-user-in-a-workflow-with-openid-connect/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "De Activate N8n Workflows Using Telegram Commands",
+    "nodes": [
+      "Filter",
+      "N8n",
+      "Switch",
+      "Telegram Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/1999-de-activate-n8n-workflows-using-telegram-commands/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Telegram Echo Bot",
+    "nodes": [
+      "Telegram",
+      "Telegram Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2007-telegram-echo-bot/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Domain Extractor",
+    "nodes": [
+      "Code",
+      "Execute Workflow Trigger",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2036-domain-extractor/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Bookmarking Urls In Your Browser And Save Them To Notion",
+    "nodes": [
+      "Notion",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2038-bookmarking-urls-in-your-browser-and-save-them-to-notion/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Airtable Automate Recurring Tasks",
+    "nodes": [
+      "Airtable",
+      "Airtable Trigger",
+      "Code",
+      "HTTP Request",
+      "Set",
+      "Slack"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2070-airtable-automate-recurring-tasks/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Upload Bulk Records From Csv Airtable Interfaces",
+    "nodes": [
+      "Airtable",
+      "Airtable Trigger",
+      "HTTP Request",
+      "IF",
+      "Set",
+      "Spreadsheet File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2071-upload-bulk-records-from-csv-airtable-interfaces/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Monday Com Useful Utilities",
+    "nodes": [
+      "Code",
+      "Convert To File",
+      "HTTP Request",
+      "Manual Trigger",
+      "Merge",
+      "Monday Com",
+      "Split Out"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2073-monday-com-useful-utilities/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Send N8n Automation Errors To A Monday Com Board",
+    "nodes": [
+      "Code",
+      "Date & Time",
+      "Error Trigger",
+      "Monday Com"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2074-send-n8n-automation-errors-to-a-monday-com-board/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Retrieve A Monday Com Row And All Data In A Single Node",
+    "nodes": [
+      "Aggregate",
+      "Code",
+      "Execute Workflow",
+      "Execute Workflow Trigger",
+      "Merge",
+      "Monday Com",
+      "Set",
+      "Split Out"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2086-retrieve-a-monday-com-row-and-all-data-in-a-single-node/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Get All Members Of A Discord Server With A Specific Role",
+    "nodes": [
+      "Discord",
+      "Filter",
+      "Google Sheets",
+      "IF",
+      "Manual Trigger",
+      "Merge",
+      "No Op",
+      "Respond to Webhook",
+      "Set",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2105-get-all-members-of-a-discord-server-with-a-specific-role/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Create Linear Tickets From Notion Content",
+    "nodes": [
+      "@n8n/langchain.open Ai",
+      "Aggregate",
+      "Code",
+      "Filter",
+      "Form Trigger",
+      "Graphql",
+      "HTTP Request",
+      "IF",
+      "Linear",
+      "Notion",
+      "Respond to Webhook",
+      "Set",
+      "Split In Batches"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2138-create-linear-tickets-from-notion-content/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Add Product Ideas To Notion Via A Slack Command",
+    "nodes": [
+      "HTTP Request",
+      "Notion",
+      "Set",
+      "Switch",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2140-add-product-ideas-to-notion-via-a-slack-command/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Report N8n Workflow Errors To Slack",
+    "nodes": [
+      "Error Trigger",
+      "Set",
+      "Slack"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2150-report-n8n-workflow-errors-to-slack/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Add A Bug To Linear Via Slack Command",
+    "nodes": [
+      "HTTP Request",
+      "Set",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2153-add-a-bug-to-linear-via-slack-command/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Classify New Bugs In Linear With Openai S Gpt 4 And Move Them To The Right Team",
+    "nodes": [
+      "@n8n/langchain.open Ai",
+      "Filter",
+      "HTTP Request",
+      "IF",
+      "Linear",
+      "Linear Trigger",
+      "Merge",
+      "Set",
+      "Slack"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2154-classify-new-bugs-in-linear-with-openai-s-gpt-4-and-move-them-to-the-right-team/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Advanced Slackbot With N8n",
+    "nodes": [
+      "Code",
+      "Execute Workflow",
+      "Execute Workflow Trigger",
+      "HTTP Request",
+      "IF",
+      "Merge",
+      "Postgres",
+      "Set",
+      "Slack",
+      "Switch",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2157-advanced-slackbot-with-n8n/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Report N8n Workflow Errors To Telegram",
+    "nodes": [
+      "Error Trigger",
+      "Set",
+      "Telegram"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2159-report-n8n-workflow-errors-to-telegram/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Report N8n Workflow Errors Directly To Your Email",
+    "nodes": [
+      "Error Trigger",
+      "Gmail"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2160-report-n8n-workflow-errors-directly-to-your-email/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Whatsapp Starter Workflow",
+    "nodes": [
+      "IF",
+      "Respond to Webhook",
+      "Webhook",
+      "Whats App"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2162-whatsapp-starter-workflow/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Chatgpt Automatic Code Review In Gitlab Mr",
+    "nodes": [
+      "@n8n/langchain.chain Llm",
+      "@n8n/langchain.lm Chat Open Ai",
+      "Code",
+      "HTTP Request",
+      "IF",
+      "Split Out",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2167-chatgpt-automatic-code-review-in-gitlab-mr/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Streamline Your Zoom Meetings With Secure Automated Stripe Payments",
+    "nodes": [
+      "Form Trigger",
+      "Gmail",
+      "Google Sheets",
+      "HTTP Request",
+      "IF",
+      "No Op",
+      "Set",
+      "Stripe Trigger",
+      "Zoom"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2192-streamline-your-zoom-meetings-with-secure-automated-stripe-payments/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Openai Assistant Workflow Upload File Create An Assistant Chat With It",
+    "nodes": [
+      "@n8n/langchain.chat Trigger",
+      "@n8n/langchain.open Ai",
+      "Google Drive",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2201-openai-assistant-workflow-upload-file-create-an-assistant-chat-with-it/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Set Credentials Dynamically Using Expressions",
+    "nodes": [
+      "Form Trigger",
+      "Nasa",
+      "Respond to Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2223-set-credentials-dynamically-using-expressions/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Send Http Requests To A List Of Urls",
+    "nodes": [
+      "HTTP Request",
+      "Schedule Trigger",
+      "Set",
+      "Split Out"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2276-send-http-requests-to-a-list-of-urls/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Restore Backed Up Workflows From Github To N8n",
+    "nodes": [
+      "Github",
+      "IF",
+      "Manual Trigger",
+      "Merge",
+      "N8n",
+      "No Op",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2289-restore-backed-up-workflows-from-github-to-n8n/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Export N8n Cloud Execution Data To Csv",
+    "nodes": [
+      "Convert To File",
+      "Manual Trigger",
+      "N8n",
+      "No Op"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2295-export-n8n-cloud-execution-data-to-csv/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Attach A Default Error Handler To All Active Workflows",
+    "nodes": [
+      "Code",
+      "Error Trigger",
+      "Gmail",
+      "IF",
+      "N8n",
+      "Schedule Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2312-attach-a-default-error-handler-to-all-active-workflows/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Introduction To The Http Tool",
+    "nodes": [
+      "@n8n/langchain.agent",
+      "@n8n/langchain.lm Chat Open Ai",
+      "@n8n/langchain.tool Http Request",
+      "Manual Trigger",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2343-introduction-to-the-http-tool/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Get Multiple Attachments From Gmail And Upload Them To Gdrive",
+    "nodes": [
+      "Function",
+      "Gmail Trigger",
+      "Google Drive"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2348-get-multiple-attachments-from-gmail-and-upload-them-to-gdrive/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Advanced Ai Demo Presented At Ai Developers 14 Meetup",
+    "nodes": [
+      "@n8n/langchain.agent",
+      "@n8n/langchain.chain Retrieval Qa",
+      "@n8n/langchain.chat Trigger",
+      "@n8n/langchain.document Default Data Loader",
+      "@n8n/langchain.embeddings Open Ai",
+      "@n8n/langchain.lm Chat Anthropic",
+      "@n8n/langchain.lm Chat Open Ai",
+      "@n8n/langchain.memory Buffer Window",
+      "@n8n/langchain.retriever Vector Store",
+      "@n8n/langchain.text Classifier",
+      "@n8n/langchain.text Splitter Recursive Character Text Splitter",
+      "@n8n/langchain.tool Http Request",
+      "@n8n/langchain.vector Store Pinecone",
+      "Code",
+      "Gmail",
+      "Gmail Trigger",
+      "HTTP Request",
+      "IF",
+      "No Op",
+      "Slack",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2358-advanced-ai-demo-presented-at-ai-developers-14-meetup/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Validate Totp Token Without Creating A Credential",
+    "nodes": [
+      "Code",
+      "IF",
+      "Manual Trigger",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2379-validate-totp-token-without-creating-a-credential/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Supabase Insertion Upsertion Retrieval",
+    "nodes": [
+      "@n8n/langchain.chain Retrieval Qa",
+      "@n8n/langchain.chat Trigger",
+      "@n8n/langchain.document Default Data Loader",
+      "@n8n/langchain.embeddings Open Ai",
+      "@n8n/langchain.lm Chat Open Ai",
+      "@n8n/langchain.retriever Vector Store",
+      "@n8n/langchain.text Splitter Recursive Character Text Splitter",
+      "@n8n/langchain.vector Store Supabase",
+      "Google Drive",
+      "Set",
+      "Supabase"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2395-supabase-insertion-upsertion-retrieval/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Kb Tool Confluence Knowledge Base",
+    "nodes": [
+      "Execute Workflow Trigger",
+      "HTTP Request",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2398-kb-tool-confluence-knowledge-base/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Ai Agent With Charts Capabilities Using Openai Structured Output And Quickchart",
+    "nodes": [
+      "@n8n/langchain.agent",
+      "@n8n/langchain.chat Trigger",
+      "@n8n/langchain.lm Chat Open Ai",
+      "@n8n/langchain.memory Buffer Window",
+      "@n8n/langchain.tool Workflow",
+      "Execute Workflow Trigger",
+      "HTTP Request",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2400-ai-agent-with-charts-capabilities-using-openai-structured-output-and-quickchart/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Telegram User Registration Workflow",
+    "nodes": [
+      "Execute Workflow Trigger",
+      "Google Sheets",
+      "IF",
+      "Set",
+      "Telegram"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2406-telegram-user-registration-workflow/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "User Verification And Login Using Auth0",
+    "nodes": [
+      "HTTP Request",
+      "IF",
+      "Respond to Webhook",
+      "Set",
+      "Stop And Error",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2408-user-verification-and-login-using-auth0/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Flux Ai Image Generator",
+    "nodes": [
+      "Form Trigger",
+      "HTTP Request",
+      "Respond to Webhook",
+      "S3",
+      "Set",
+      "Switch"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2417-flux-ai-image-generator/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Easy Image Captioning With Gemini 1 5 Pro",
+    "nodes": [
+      "@n8n/langchain.chain Llm",
+      "@n8n/langchain.lm Chat Google Gemini",
+      "@n8n/langchain.output Parser Structured",
+      "Code",
+      "Edit Image",
+      "HTTP Request",
+      "Manual Trigger",
+      "Merge"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2418-easy-image-captioning-with-gemini-1-5-pro/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Automate Image Validation Tasks Using Ai Vision",
+    "nodes": [
+      "@n8n/langchain.chain Llm",
+      "@n8n/langchain.lm Chat Google Gemini",
+      "@n8n/langchain.output Parser Structured",
+      "Edit Image",
+      "Google Drive",
+      "Manual Trigger",
+      "Set",
+      "Split Out"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2420-automate-image-validation-tasks-using-ai-vision/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Siri Ai Agent Apple Shortcuts Powered Voice Template",
+    "nodes": [
+      "@n8n/langchain.agent",
+      "@n8n/langchain.lm Chat Open Ai",
+      "Respond to Webhook",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2436-siri-ai-agent-apple-shortcuts-powered-voice-template/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Text Automations Using Apple Shortcuts",
+    "nodes": [
+      "@n8n/langchain.open Ai",
+      "Respond to Webhook",
+      "Switch",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2456-text-automations-using-apple-shortcuts/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Narrating Over A Video Using Multimodal Ai",
+    "nodes": [
+      "@n8n/langchain.chain Llm",
+      "@n8n/langchain.lm Chat Open Ai",
+      "@n8n/langchain.open Ai",
+      "Aggregate",
+      "Code",
+      "Convert To File",
+      "Edit Image",
+      "Google Drive",
+      "HTTP Request",
+      "Manual Trigger",
+      "Split In Batches",
+      "Split Out",
+      "Wait"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2467-narrating-over-a-video-using-multimodal-ai/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Generate Seo Seed Keywords Using Ai",
+    "nodes": [
+      "@n8n/langchain.agent",
+      "@n8n/langchain.lm Chat Anthropic",
+      "Aggregate",
+      "Manual Trigger",
+      "No Op",
+      "Set",
+      "Split Out"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2473-generate-seo-seed-keywords-using-ai/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Automate Droplet Snapshots On Digitalocean",
+    "nodes": [
+      "Cron",
+      "Filter",
+      "HTTP Request"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2485-automate-droplet-snapshots-on-digitalocean/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Build An Endpoint To Perform Crud Operations With Multiple Http Methods",
+    "nodes": [
+      "Airtable",
+      "Respond to Webhook",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2490-build-an-endpoint-to-perform-crud-operations-with-multiple-http-methods/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Wordpress Ai Chatbot To Enhance User Experience With Supabase And Openai",
+    "nodes": [
+      "@n8n/langchain.agent",
+      "@n8n/langchain.chat Trigger",
+      "@n8n/langchain.document Default Data Loader",
+      "@n8n/langchain.embeddings Open Ai",
+      "@n8n/langchain.lm Chat Open Ai",
+      "@n8n/langchain.memory Postgres Chat",
+      "@n8n/langchain.text Splitter Token Splitter",
+      "@n8n/langchain.vector Store Supabase",
+      "Aggregate",
+      "Filter",
+      "HTTP Request",
+      "Manual Trigger",
+      "Markdown",
+      "Merge",
+      "Postgres",
+      "Respond to Webhook",
+      "Schedule Trigger",
+      "Set",
+      "Split In Batches",
+      "Supabase",
+      "Switch",
+      "Wordpress"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2504-wordpress-ai-chatbot-to-enhance-user-experience-with-supabase-and-openai/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Generate Sql Queries From Schema Only Ai Powered",
+    "nodes": [
+      "@n8n/langchain.agent",
+      "@n8n/langchain.chat Trigger",
+      "@n8n/langchain.lm Chat Open Ai",
+      "@n8n/langchain.memory Buffer Window",
+      "Convert To File",
+      "Extract From File",
+      "IF",
+      "Manual Trigger",
+      "Merge",
+      "My Sql",
+      "No Op",
+      "Read Write File",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2508-generate-sql-queries-from-schema-only-ai-powered/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Sharepoint List Fetch With Oauth Token",
+    "nodes": [
+      "HTTP Request",
+      "Schedule Trigger",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2527-sharepoint-list-fetch-with-oauth-token/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Get Long Lived Facebook User Or Page Access Token",
+    "nodes": [
+      "HTTP Request",
+      "Manual Trigger",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2535-get-long-lived-facebook-user-or-page-access-token/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Pattern For Parallel Sub Workflow Execution Followed By Wait For All Loop",
+    "nodes": [
+      "Code",
+      "HTTP Request",
+      "IF",
+      "Manual Trigger",
+      "No Op",
+      "Respond to Webhook",
+      "Set",
+      "Split In Batches",
+      "Wait",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2536-pattern-for-parallel-sub-workflow-execution-followed-by-wait-for-all-loop/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Demo Workflow How To Use Workflowstaticdata",
+    "nodes": [
+      "Code",
+      "HTTP Request",
+      "IF",
+      "No Op",
+      "Schedule Trigger",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2538-demo-workflow-how-to-use-workflowstaticdata/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Add New Clients From Notion To Clockify",
+    "nodes": [
+      "Clockify",
+      "Notion Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2551-add-new-clients-from-notion-to-clockify/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Visualize Your Sql Agent Queries With Openai And Quickchart Io",
+    "nodes": [
+      "@n8n/langchain.agent",
+      "@n8n/langchain.chat Trigger",
+      "@n8n/langchain.lm Chat Open Ai",
+      "@n8n/langchain.memory Buffer Window",
+      "@n8n/langchain.text Classifier",
+      "Execute Workflow",
+      "Execute Workflow Trigger",
+      "HTTP Request",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2559-visualize-your-sql-agent-queries-with-openai-and-quickchart-io/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Conversational Interviews With Ai Agents And N8n Forms",
+    "nodes": [
+      "@n8n/langchain.agent",
+      "@n8n/langchain.lm Chat Groq",
+      "@n8n/langchain.memory Buffer Window",
+      "@n8n/langchain.memory Manager",
+      "Crypto",
+      "Form",
+      "Form Trigger",
+      "Google Sheets",
+      "HTML",
+      "IF",
+      "Redis",
+      "Respond to Webhook",
+      "Set",
+      "Split Out",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2566-conversational-interviews-with-ai-agents-and-n8n-forms/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Import Productboard Notes Companies And Features Into Snowflake",
+    "nodes": [
+      "HTTP Request",
+      "Schedule Trigger",
+      "Set",
+      "Slack",
+      "Snowflake",
+      "Split In Batches",
+      "Split Out"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2576-import-productboard-notes-companies-and-features-into-snowflake/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Time Logging On Clockify Using Slack",
+    "nodes": [
+      "@n8n/langchain.agent",
+      "@n8n/langchain.lm Chat Open Ai",
+      "@n8n/langchain.memory Buffer Window",
+      "@n8n/langchain.tool Calculator",
+      "@n8n/langchain.tool Code",
+      "@n8n/langchain.tool Http Request",
+      "Execution Data",
+      "Slack",
+      "Slack Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2604-time-logging-on-clockify-using-slack/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Ai Agent To Chat With Supabase Postgresql Db",
+    "nodes": [
+      "@n8n/langchain.agent",
+      "@n8n/langchain.chat Trigger",
+      "@n8n/langchain.lm Chat Open Ai",
+      "@n8n/langchain.tool Code",
+      "Postgres Tool"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2612-ai-agent-to-chat-with-supabase-postgresql-db/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Prompt Based Object Detection With Gemini 2 0",
+    "nodes": [
+      "Code",
+      "Edit Image",
+      "HTTP Request",
+      "Manual Trigger",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2649-prompt-based-object-detection-with-gemini-2-0/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Ai Data Analyst Agent For Spreadsheets With Nocodb",
+    "nodes": [
+      "@n8n/langchain.agent",
+      "@n8n/langchain.chat Trigger",
+      "@n8n/langchain.lm Chat Open Ai",
+      "@n8n/langchain.memory Buffer Window",
+      "HTTP Request",
+      "Noco Db Tool",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/2653-ai-data-analyst-agent-for-spreadsheets-with-nocodb/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Write Http Query String On Image",
+    "nodes": [
+      "Edit Image",
+      "HTTP Request",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/3-write-http-query-string-on-image/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Sample Error Workflow",
+    "nodes": [
+      "Error Trigger",
+      "Mattermost",
+      "Twilio"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/359-sample-error-workflow/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Notify A Team Channel About New Software Releases Via Slack And Github",
+    "nodes": [
+      "Github Trigger",
+      "Slack"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/371-notify-a-team-channel-about-new-software-releases-via-slack-and-github/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Send Airtable Data As Tasks To Trello",
+    "nodes": [
+      "Airtable",
+      "Bannerbear",
+      "Manual Trigger",
+      "Trello"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/385-send-airtable-data-as-tasks-to-trello/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Send Selected Github Events To Slack",
+    "nodes": [
+      "Github Trigger",
+      "IF",
+      "Slack"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/4-send-selected-github-events-to-slack/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Extract Post Titles From A Blog",
+    "nodes": [
+      "HTTP Request",
+      "Html Extract",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/434-extract-post-titles-from-a-blog/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Perform Speech To Text On Recorded Audio Clips Using Wit Ai",
+    "nodes": [
+      "HTTP Request",
+      "Read Binary File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/437-perform-speech-to-text-on-recorded-audio-clips-using-wit-ai/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Create A Url On Bitly",
+    "nodes": [
+      "Bitly",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/442-create-a-url-on-bitly/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Send A Tweet To Twitter",
+    "nodes": [
+      "Manual Trigger",
+      "Twitter"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/445-send-a-tweet-to-twitter/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Get A Pipeline In Circleci",
+    "nodes": [
+      "Circle Ci",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/454-get-a-pipeline-in-circleci/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Run A Sql Query On Postgres",
+    "nodes": [
+      "Manual Trigger",
+      "Postgres"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/458-run-a-sql-query-on-postgres/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Create A New Issue In Jira",
+    "nodes": [
+      "Jira",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/459-create-a-new-issue-in-jira/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Create A New Card In Trello",
+    "nodes": [
+      "Manual Trigger",
+      "Trello"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/461-create-a-new-card-in-trello/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Get Details Of A Gitlab Repository",
+    "nodes": [
+      "Gitlab",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/465-get-details-of-a-gitlab-repository/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Execute An Sql Query In Microsoft Sql",
+    "nodes": [
+      "Manual Trigger",
+      "Microsoft Sql"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/479-execute-an-sql-query-in-microsoft-sql/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Insert Data Into A New Row For A Table In Coda",
+    "nodes": [
+      "Coda",
+      "Manual Trigger",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/482-insert-data-into-a-new-row-for-a-table-in-coda/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Create A Task In Clickup",
+    "nodes": [
+      "Click Up",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/485-create-a-task-in-clickup/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Receive Updates For Events In Clickup",
+    "nodes": [
+      "Click Up Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/487-receive-updates-for-events-in-clickup/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Track An Event In Segment",
+    "nodes": [
+      "Manual Trigger",
+      "Segment"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/495-track-an-event-in-segment/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Invoke An Aws Lambda Function",
+    "nodes": [
+      "Aws Lambda",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/510-invoke-an-aws-lambda-function/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Get Entries From A Cockpit Collection",
+    "nodes": [
+      "Cockpit",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/518-get-entries-from-a-cockpit-collection/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Get Today S Date And Day Using The Function Node",
+    "nodes": [
+      "Function",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/524-get-today-s-date-and-day-using-the-function-node/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Get Articles From Hacker News",
+    "nodes": [
+      "Hacker News",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/525-get-articles-from-hacker-news/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Assign Values To Variables Using The Set Node",
+    "nodes": [
+      "Manual Trigger",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/526-assign-values-to-variables-using-the-set-node/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Receive Updates For Github Events",
+    "nodes": [
+      "Github Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/527-receive-updates-for-github-events/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Receive Updates For Gitlab Events",
+    "nodes": [
+      "Gitlab Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/528-receive-updates-for-gitlab-events/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Receive Updates For Bitbucket Events",
+    "nodes": [
+      "Bitbucket Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/529-receive-updates-for-bitbucket-events/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Create An Image Procedurally Using Bannerbear",
+    "nodes": [
+      "Bannerbear",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/544-create-an-image-procedurally-using-bannerbear/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Get All Posts From Wordpress",
+    "nodes": [
+      "Manual Trigger",
+      "Wordpress"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/546-get-all-posts-from-wordpress/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Get All Orders In Shopify",
+    "nodes": [
+      "Manual Trigger",
+      "Shopify"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/548-get-all-orders-in-shopify/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Get A Board From Monday Com",
+    "nodes": [
+      "Manual Trigger",
+      "Monday Com"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/556-get-a-board-from-monday-com/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Get The Value Of A Key From Redis",
+    "nodes": [
+      "Manual Trigger",
+      "Redis"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/557-get-the-value-of-a-key-from-redis/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Create A New Folder In Box",
+    "nodes": [
+      "Box",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/559-create-a-new-folder-in-box/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Get Contributors Information From Github In Slack",
+    "nodes": [
+      "Function",
+      "Graphql",
+      "Slack",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/563-get-contributors-information-from-github-in-slack/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Create A Folder In Onedrive",
+    "nodes": [
+      "Manual Trigger",
+      "Microsoft One Drive"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/565-create-a-folder-in-onedrive/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Encrypt Some Data Using The Crypto Node",
+    "nodes": [
+      "Crypto",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/574-encrypt-some-data-using-the-crypto-node/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Get Information Of An Image",
+    "nodes": [
+      "Edit Image",
+      "HTTP Request",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/576-get-information-of-an-image/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Execute Set Node Based On Function Output",
+    "nodes": [
+      "Function",
+      "IF",
+      "Manual Trigger",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/581-execute-set-node-based-on-function-output/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Rename A Key In N8n",
+    "nodes": [
+      "Manual Trigger",
+      "Rename Keys",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/582-rename-a-key-in-n8n/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Read An Rss Feed",
+    "nodes": [
+      "Manual Trigger",
+      "Rss Feed Read"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/583-read-an-rss-feed/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Execute Another Workflow",
+    "nodes": [
+      "Execute Workflow",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/588-execute-another-workflow/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Create A Table In Quest Db And Insert Data",
+    "nodes": [
+      "Manual Trigger",
+      "Quest Db",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/592-create-a-table-in-quest-db-and-insert-data/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Create A Table In Cratedb And Insert Data",
+    "nodes": [
+      "Crate Db",
+      "Manual Trigger",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/597-create-a-table-in-cratedb-and-insert-data/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Create A Table In Mysql And Insert Data",
+    "nodes": [
+      "Manual Trigger",
+      "My Sql",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/598-create-a-table-in-mysql-and-insert-data/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Create A Table In Postgres And Insert Data",
+    "nodes": [
+      "Manual Trigger",
+      "Postgres",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/599-create-a-table-in-postgres-and-insert-data/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Manage Users Automatically In Reqres In",
+    "nodes": [
+      "HTTP Request",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/602-manage-users-automatically-in-reqres-in/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Nathan Your N8n Personal Assistant",
+    "nodes": [
+      "Email Read Imap",
+      "Function",
+      "Merge",
+      "Read Binary File",
+      "Send Email",
+      "Slack",
+      "Spreadsheet File",
+      "Switch"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/632-nathan-your-n8n-personal-assistant/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Export Wordpress Posts To Spreadsheet",
+    "nodes": [
+      "Manual Trigger",
+      "Spreadsheet File",
+      "Wordpress",
+      "Write Binary File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/635-export-wordpress-posts-to-spreadsheet/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Receive Server Sent Events",
+    "nodes": [
+      "Sse Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/639-receive-server-sent-events/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Get All The Entries From Contentful",
+    "nodes": [
+      "Contentful",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/640-get-all-the-entries-from-contentful/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Get All Releases In Sentry",
+    "nodes": [
+      "Manual Trigger",
+      "Sentry Io"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/643-get-all-releases-in-sentry/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Merge Greetings With The Users Based On The Language",
+    "nodes": [
+      "Code",
+      "Manual Trigger",
+      "Merge"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/655-merge-greetings-with-the-users-based-on-the-language/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Trigger A Build Using The Travisci Node",
+    "nodes": [
+      "Manual Trigger",
+      "Travis Ci"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/658-trigger-a-build-using-the-travisci-node/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Send An Sms Using The Mocean Node",
+    "nodes": [
+      "Manual Trigger",
+      "Mocean"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/667-send-an-sms-using-the-mocean-node/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Create Or Update A Post In Wordpress",
+    "nodes": [
+      "Manual Trigger",
+      "Wordpress"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/668-create-or-update-a-post-in-wordpress/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Create Update And Get An Issue On Taiga",
+    "nodes": [
+      "Manual Trigger",
+      "Taiga"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/685-create-update-and-get-an-issue-on-taiga/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Receive Updates When An Event Occurs In Taiga",
+    "nodes": [
+      "Taiga Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/686-receive-updates-when-an-event-occurs-in-taiga/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Read Rss Feed From Two Different Sources",
+    "nodes": [
+      "Code",
+      "Manual Trigger",
+      "Rss Feed Read",
+      "Split In Batches"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/687-read-rss-feed-from-two-different-sources/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Execute Set Node Based On Function Output",
+    "nodes": [
+      "Function",
+      "Manual Trigger",
+      "No Op",
+      "Set",
+      "Switch"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/688-execute-set-node-based-on-function-output/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Display Project Data On A Smashing Dashboard",
+    "nodes": [
+      "Cron",
+      "Function",
+      "Github",
+      "HTTP Request",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/693-display-project-data-on-a-smashing-dashboard/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Get Local Datetime Into Function Node Using Moment Js",
+    "nodes": [
+      "Function",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/695-get-local-datetime-into-function-node-using-moment-js/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Archive Spotify S Discover Weekly Playlist",
+    "nodes": [
+      "IF",
+      "Merge",
+      "Schedule Trigger",
+      "Spotify"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/697-archive-spotify-s-discover-weekly-playlist/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Purge N8n Execution History Located In Mysql",
+    "nodes": [
+      "Cron",
+      "Manual Trigger",
+      "My Sql"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/700-purge-n8n-execution-history-located-in-mysql/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Manage Projects In Clockify",
+    "nodes": [
+      "Clockify",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/701-manage-projects-in-clockify/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Extract Information From An Image Of A Receipt",
+    "nodes": [
+      "HTTP Request",
+      "Manual Trigger",
+      "Mindee"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/702-extract-information-from-an-image-of-a-receipt/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Create A Board Lists And A Card In Wekan",
+    "nodes": [
+      "Manual Trigger",
+      "Wekan"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/728-create-a-board-lists-and-a-card-in-wekan/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Store And Send Information About The Weather For Any City Via Sms",
+    "nodes": [
+      "Airtable",
+      "Open Weather Map",
+      "Set",
+      "Twilio",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/738-store-and-send-information-about-the-weather-for-any-city-via-sms/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Detect And Store The Information About A Purchase Using The Image Of A Receipt",
+    "nodes": [
+      "Airtable",
+      "Mindee",
+      "Set",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/739-detect-and-store-the-information-about-a-purchase-using-the-image-of-a-receipt/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Extract Infromation From A Receipt And Store It In Airtable",
+    "nodes": [
+      "Airtable",
+      "HTTP Request",
+      "Mindee",
+      "Set",
+      "Typeform Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/741-extract-infromation-from-a-receipt-and-store-it-in-airtable/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Create Update And Get Activity In Strava",
+    "nodes": [
+      "Manual Trigger",
+      "Strava"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/744-create-update-and-get-activity-in-strava/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Send Updates About The Position Of The Iss Every Minute To A Topic In Kafka",
+    "nodes": [
+      "Cron",
+      "HTTP Request",
+      "Kafka",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/750-send-updates-about-the-position-of-the-iss-every-minute-to-a-topic-in-kafka/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Send Updates About The Position Of The Iss Every Minute To A Topic In Activemq",
+    "nodes": [
+      "Amqp",
+      "Cron",
+      "HTTP Request",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/762-send-updates-about-the-position-of-the-iss-every-minute-to-a-topic-in-activemq/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Create A New Member Update The Infromation Create A Note And Post In Orbit",
+    "nodes": [
+      "Manual Trigger",
+      "Orbit"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/765-create-a-new-member-update-the-infromation-create-a-note-and-post-in-orbit/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Create Multiple Json Items From An Array",
+    "nodes": [
+      "Function"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/766-create-multiple-json-items-from-an-array/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Create An Array Of Objects",
+    "nodes": [
+      "Function"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/767-create-an-array-of-objects/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Get All The Stories And Publish Them In Storyblok",
+    "nodes": [
+      "Manual Trigger",
+      "Storyblok"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/768-get-all-the-stories-and-publish-them-in-storyblok/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Receive Updates For The Position Of The Iss And Push It To A Firbase",
+    "nodes": [
+      "Cron",
+      "Google Firebase Realtime Database",
+      "HTTP Request",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/787-receive-updates-for-the-position-of-the-iss-and-push-it-to-a-firbase/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Translate Instructions Using Lingvanex",
+    "nodes": [
+      "HTTP Request",
+      "Lingva Nex",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/797-translate-instructions-using-lingvanex/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Handle Errors From A Different Workflow",
+    "nodes": [
+      "Error Trigger",
+      "Mailgun"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/8-handle-errors-from-a-different-workflow/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Create Update And Get Records In Quick Base",
+    "nodes": [
+      "Manual Trigger",
+      "Quickbase",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/805-create-update-and-get-records-in-quick-base/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Get Synonyms Of A German Word",
+    "nodes": [
+      "Manual Trigger",
+      "Open Thesaurus"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/806-get-synonyms-of-a-german-word/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Get The Job Details Using The Cortex Node",
+    "nodes": [
+      "Cortex",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/809-get-the-job-details-using-the-cortex-node/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Save Your Workflows Into A Github Repository",
+    "nodes": [
+      "Cron",
+      "Function",
+      "Github",
+      "HTTP Request",
+      "Manual Trigger",
+      "Merge",
+      "No Op",
+      "Set",
+      "Split In Batches",
+      "Switch"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/817-save-your-workflows-into-a-github-repository/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Insert And Update Data In Airtable",
+    "nodes": [
+      "Airtable",
+      "Manual Trigger",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/818-insert-and-update-data-in-airtable/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "N8n Workflow Backup Management With Dropbox And Airtable",
+    "nodes": [
+      "Airtable",
+      "Cron",
+      "Dropbox",
+      "Function",
+      "HTTP Request",
+      "IF",
+      "Manual Trigger",
+      "Move Binary Data",
+      "No Op",
+      "Set",
+      "Split In Batches"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/823-n8n-workflow-backup-management-with-dropbox-and-airtable/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Create A Table And Insert And Update Data In The Table In Snowflake",
+    "nodes": [
+      "Manual Trigger",
+      "Set",
+      "Snowflake"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/824-create-a-table-and-insert-and-update-data-in-the-table-in-snowflake/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Create Update And Get A Post In Ghost",
+    "nodes": [
+      "Ghost",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/825-create-update-and-get-a-post-in-ghost/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Send The Astronomy Picture Of The Day Daily To A Telegram Channel",
+    "nodes": [
+      "Cron",
+      "Nasa",
+      "Telegram"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/828-send-the-astronomy-picture-of-the-day-daily-to-a-telegram-channel/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Get Company Data And Store It In Airtable",
+    "nodes": [
+      "Airtable",
+      "Brandfetch",
+      "Manual Trigger",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/835-get-company-data-and-store-it-in-airtable/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Track Changes Of Product Prices",
+    "nodes": [
+      "Cron",
+      "Execute Command",
+      "Function Item",
+      "HTTP Request",
+      "Html Extract",
+      "IF",
+      "Move Binary Data",
+      "Read Binary File",
+      "Send Email",
+      "Write Binary File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/837-track-changes-of-product-prices/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Send Updates About The Position Of The Iss Every Minute To A Topic In Rabbitmq",
+    "nodes": [
+      "Cron",
+      "HTTP Request",
+      "Rabbitmq",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/844-send-updates-about-the-position-of-the-iss-every-minute-to-a-topic-in-rabbitmq/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Create Update And Get A Product From Woocommerce",
+    "nodes": [
+      "Manual Trigger",
+      "Woo Commerce"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/847-create-update-and-get-a-product-from-woocommerce/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Weekly Coffee Chat Mattermost Version",
+    "nodes": [
+      "Cron",
+      "Function",
+      "Google Calendar",
+      "Mattermost"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/853-weekly-coffee-chat-mattermost-version/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Create A Website Screenshot And Send Via Telegram Channel",
+    "nodes": [
+      "Manual Trigger",
+      "Telegram",
+      "Uproc"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/858-create-a-website-screenshot-and-send-via-telegram-channel/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Create Add An Attachment And Send A Draft Using Microsoft Outlook",
+    "nodes": [
+      "HTTP Request",
+      "Manual Trigger",
+      "Microsoft Outlook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/867-create-add-an-attachment-and-send-a-draft-using-microsoft-outlook/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Find A New Book Recommendations",
+    "nodes": [
+      "Cron",
+      "Function",
+      "HTTP Request",
+      "IF",
+      "Manual Trigger",
+      "Send Email",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/869-find-a-new-book-recommendations/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Send An Sms To A Number Whenever You Go Out",
+    "nodes": [
+      "Pushcut Trigger",
+      "Twilio"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/870-send-an-sms-to-a-number-whenever-you-go-out/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Send Tweets Every Minute To Mattermost",
+    "nodes": [
+      "Cron",
+      "Function",
+      "Mattermost",
+      "Set",
+      "Twitter"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/875-send-tweets-every-minute-to-mattermost/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Access Data From Bubble Application",
+    "nodes": [
+      "HTTP Request",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/879-access-data-from-bubble-application/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Receive Updates Of The Position Of The Iss Every Minute",
+    "nodes": [
+      "Cron",
+      "Function",
+      "HTTP Request",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/880-receive-updates-of-the-position-of-the-iss-every-minute/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Get Data From Hacker News And Send To Airtable Or Via Sms",
+    "nodes": [
+      "Airtable",
+      "Cron",
+      "Function",
+      "Hacker News",
+      "Lingva Nex",
+      "Set",
+      "Vonage"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/888-get-data-from-hacker-news-and-send-to-airtable-or-via-sms/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Add A Datapoint To Beeminder On Strava Activity Update",
+    "nodes": [
+      "Beeminder",
+      "Strava Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/900-add-a-datapoint-to-beeminder-on-strava-activity-update/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Create Update And Get A Post Via Discourse",
+    "nodes": [
+      "Discourse",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/930-create-update-and-get-a-post-via-discourse/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Insert And Retrieve Data From A Table In Stackby",
+    "nodes": [
+      "Manual Trigger",
+      "Set",
+      "Stackby"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/934-insert-and-retrieve-data-from-a-table-in-stackby/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Check For Preview For A Link",
+    "nodes": [
+      "IF",
+      "Manual Trigger",
+      "No Op",
+      "Peekalink"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/935-check-for-preview-for-a-link/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Create A Collection And Create Update And Get A Bookmark In Raindrop",
+    "nodes": [
+      "Raindrop"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/959-create-a-collection-and-create-update-and-get-a-bookmark-in-raindrop/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Analyze Feedback Using Aws Comprehend And Send It To A Mattermost Channel",
+    "nodes": [
+      "Aws Comprehend",
+      "IF",
+      "Mattermost",
+      "No Op",
+      "Typeform Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/965-analyze-feedback-using-aws-comprehend-and-send-it-to-a-mattermost-channel/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Create Asana Ticket From Terminal Bash Dash",
+    "nodes": [
+      "Asana",
+      "Set",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/987-create-asana-ticket-from-terminal-bash-dash/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Split In Batches Node Noitemsleft Example",
+    "nodes": [
+      "Function",
+      "IF",
+      "Manual Trigger",
+      "Set",
+      "Split In Batches"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/995-split-in-batches-node-noitemsleft-example/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Split In Batches Node Currentrunindex Example",
+    "nodes": [
+      "Function",
+      "IF",
+      "Manual Trigger",
+      "Set",
+      "Split In Batches"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/996-split-in-batches-node-currentrunindex-example/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Getting Started",
+    "nodes": [
+      "Function Item",
+      "Interval",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/automation/getting-started/workflow.json",
+    "category": "automation"
+  },
+  {
+    "name": "Check To Do On Notion And Send Message On Slack",
+    "nodes": [
+      "Cron",
+      "IF",
+      "No Op",
+      "Notion",
+      "Slack"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/1105-check-to-do-on-notion-and-send-message-on-slack/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Add Positive Feedback Messages To A Table In Notion",
+    "nodes": [
+      "Google Cloud Natural Language",
+      "IF",
+      "Notion",
+      "Slack",
+      "Trello",
+      "Typeform Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/1109-add-positive-feedback-messages-to-a-table-in-notion/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Send Notification When Deployment Fails",
+    "nodes": [
+      "Netlify Trigger",
+      "Slack"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/1255-send-notification-when-deployment-fails/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Save Email Attachments To Nextcloud",
+    "nodes": [
+      "Email Read Imap",
+      "Function",
+      "Next Cloud"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/1344-save-email-attachments-to-nextcloud/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Extract Url From An Email Address",
+    "nodes": [
+      "Function",
+      "Manual Trigger",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/1377-extract-url-from-an-email-address/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Send A Message To Telegram On A New Item Saved To Reader",
+    "nodes": [
+      "Cron",
+      "Function",
+      "Function Item",
+      "HTTP Request",
+      "Manual Trigger",
+      "Move Binary Data",
+      "Read Binary File",
+      "Set",
+      "Telegram",
+      "Write Binary File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/1416-send-a-message-to-telegram-on-a-new-item-saved-to-reader/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Parse Email Body Message",
+    "nodes": [
+      "Function Item",
+      "Manual Trigger",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/1453-parse-email-body-message/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Message On Website Content Changed In Telegram",
+    "nodes": [
+      "Cron",
+      "HTTP Request",
+      "IF",
+      "No Op",
+      "Telegram",
+      "Wait"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/1471-message-on-website-content-changed-in-telegram/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Send Telegram Messages On Rss Feed Read",
+    "nodes": [
+      "Cron",
+      "Function",
+      "IF",
+      "No Op",
+      "Rss Feed Read",
+      "Telegram"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/1507-send-telegram-messages-on-rss-feed-read/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Send A Discord Message When A Certain Onfleet Event Happens",
+    "nodes": [
+      "Discord",
+      "Onfleet Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/1528-send-a-discord-message-when-a-certain-onfleet-event-happens/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Send Onfleet Driver Signup Messages In Slack",
+    "nodes": [
+      "Onfleet Trigger",
+      "Slack"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/1532-send-onfleet-driver-signup-messages-in-slack/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Listen On New Emails On A Imap Mailbox",
+    "nodes": [
+      "Email Read Imap",
+      "HTTP Request",
+      "Move Binary Data",
+      "Set",
+      "XML"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/154-listen-on-new-emails-on-a-imap-mailbox/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Get Slack Notifications When New Product Published On Woocommerce",
+    "nodes": [
+      "IF",
+      "Slack",
+      "Woo Commerce Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/1765-get-slack-notifications-when-new-product-published-on-woocommerce/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Generate Dynamic Contents For Emails Or Html Pages",
+    "nodes": [
+      "Customer Datastore",
+      "Document-generator. Document Generator",
+      "Function Item",
+      "Item Lists",
+      "Manual Trigger",
+      "Send Email"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/1790-generate-dynamic-contents-for-emails-or-html-pages/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Poll Emails Using Jmap",
+    "nodes": [
+      "HTTP Request",
+      "Manual Trigger",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/2032-poll-emails-using-jmap/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Send Dingtalk Message On New Azure Devops Pull Request",
+    "nodes": [
+      "Code",
+      "HTTP Request",
+      "My Sql",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/2034-send-dingtalk-message-on-new-azure-devops-pull-request/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Zalando Price Patrol Monitor Price Evolution With Email Notification",
+    "nodes": [
+      "Form Trigger",
+      "Gmail",
+      "Google Sheets",
+      "HTTP Request",
+      "IF",
+      "Schedule Trigger",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/2212-zalando-price-patrol-monitor-price-evolution-with-email-notification/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Extract Domain And Verify Email Syntax On The Go",
+    "nodes": [
+      "Debug Helper",
+      "Manual Trigger",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/2239-extract-domain-and-verify-email-syntax-on-the-go/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Send A Message With An Inline Embedded Image With Gmail",
+    "nodes": [
+      "Extract From File",
+      "HTTP Request",
+      "Manual Trigger",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/2280-send-a-message-with-an-inline-embedded-image-with-gmail/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Create Single New Masked Email Address With Fastmail",
+    "nodes": [
+      "HTTP Request",
+      "Respond to Webhook",
+      "Set",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/2471-create-single-new-masked-email-address-with-fastmail/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Send A Message Via A Lark Bot",
+    "nodes": [
+      "HTTP Request",
+      "Manual Trigger",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/2478-send-a-message-via-a-lark-bot/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Telegram Ai Bot Assistant Ready Made Template For Voice Text Messages",
+    "nodes": [
+      "@n8n/langchain.agent",
+      "@n8n/langchain.lm Chat Open Ai",
+      "@n8n/langchain.memory Buffer Window",
+      "@n8n/langchain.open Ai",
+      "Set",
+      "Switch",
+      "Telegram",
+      "Telegram Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/2534-telegram-ai-bot-assistant-ready-made-template-for-voice-text-messages/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Send An Sms Whatsapp Message With Twilio",
+    "nodes": [
+      "Manual Trigger",
+      "Twilio"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/401-send-an-sms-whatsapp-message-with-twilio/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Post A Message To A Channel In Rocketchat",
+    "nodes": [
+      "Manual Trigger",
+      "Rocketchat"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/462-post-a-message-to-a-channel-in-rocketchat/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Send A Message Via Aws Sns",
+    "nodes": [
+      "Aws Sns",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/501-send-a-message-via-aws-sns/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Send An Email Using Aws Ses",
+    "nodes": [
+      "Aws Ses",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/507-send-an-email-using-aws-ses/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Verify Email Deliverability With Hunter",
+    "nodes": [
+      "Hunter",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/519-verify-email-deliverability-with-hunter/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Send An Email Using Mailjet",
+    "nodes": [
+      "Mailjet",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/520-send-an-email-using-mailjet/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Send An Email Using Mailgun",
+    "nodes": [
+      "Mailgun",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/522-send-an-email-using-mailgun/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Send An Email Template Using Mandrill",
+    "nodes": [
+      "Mandrill",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/571-send-an-email-template-using-mandrill/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Send An Email",
+    "nodes": [
+      "Manual Trigger",
+      "Send Email"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/584-send-an-email/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Create Update And Send A Message To A Channel In Microsoft Teams",
+    "nodes": [
+      "Manual Trigger",
+      "Microsoft Teams"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/680-create-update-and-send-a-message-to-a-channel-in-microsoft-teams/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Send Bulk Messages To Chats In Telegram",
+    "nodes": [
+      "Google Sheets",
+      "Manual Trigger",
+      "Split In Batches",
+      "Telegram",
+      "Wait"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/772-send-bulk-messages-to-chats-in-telegram/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Send Daily Weather Updates Via A Message Using The Gotify Node",
+    "nodes": [
+      "Cron",
+      "Gotify",
+      "Open Weather Map"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/774-send-daily-weather-updates-via-a-message-using-the-gotify-node/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Send Daily Weather Updates Via A Push Notification Using Spontit",
+    "nodes": [
+      "Cron",
+      "Open Weather Map",
+      "Spontit"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/796-send-daily-weather-updates-via-a-push-notification-using-spontit/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Receive A Mattermost Message When New Data Gets Added To Airtable",
+    "nodes": [
+      "Airtable Trigger",
+      "Mattermost"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/799-receive-a-mattermost-message-when-new-data-gets-added-to-airtable/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Receive Messages From A Topic Via Kafka And Send An Sms",
+    "nodes": [
+      "IF",
+      "Kafka Trigger",
+      "No Op",
+      "Vonage"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/814-receive-messages-from-a-topic-via-kafka-and-send-an-sms/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Create A Channel Add A Member And Post A Message To The Channel On Mattermost",
+    "nodes": [
+      "Manual Trigger",
+      "Mattermost"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/832-create-a-channel-add-a-member-and-post-a-message-to-the-channel-on-mattermost/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Receive Messages From A Queue Via Rabbitmq And Send An Sms",
+    "nodes": [
+      "IF",
+      "No Op",
+      "Rabbitmq Trigger",
+      "Vonage"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/845-receive-messages-from-a-queue-via-rabbitmq-and-send-an-sms/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Create Screenshots With Uproc Save To Dropbox And Send By Email",
+    "nodes": [
+      "Aws Ses",
+      "Dropbox",
+      "Function Item",
+      "HTTP Request",
+      "Manual Trigger",
+      "Merge",
+      "Uproc"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/857-create-screenshots-with-uproc-save-to-dropbox-and-send-by-email/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Monitor Strava And Send Email Updates",
+    "nodes": [
+      "Cron",
+      "IF",
+      "No Op",
+      "Send Email",
+      "Set",
+      "Strava"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/communication/876-monitor-strava-and-send-email-updates/workflow.json",
+    "category": "communication"
+  },
+  {
+    "name": "Insert Excel Data To Postgres",
+    "nodes": [
+      "Postgres",
+      "Read Binary File",
+      "Spreadsheet File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1-insert-excel-data-to-postgres/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Add Data From Google Sheet To Dropbox",
+    "nodes": [
+      "Dropbox",
+      "Google Sheets",
+      "Interval",
+      "Spreadsheet File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/11-add-data-from-google-sheet-to-dropbox/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Database Alerts With Notion And Signl4",
+    "nodes": [
+      "Function",
+      "Interval",
+      "Notion",
+      "Notion Trigger",
+      "Signl4",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1122-database-alerts-with-notion-and-signl4/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Backup N8n Workflows To Google Drive",
+    "nodes": [
+      "Cron",
+      "Function",
+      "Function Item",
+      "Google Drive",
+      "HTTP Request",
+      "Manual Trigger",
+      "Merge",
+      "Move Binary Data"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1150-backup-n8n-workflows-to-google-drive/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Send A Daily Summary Of Your Google Calendar Events To Slack",
+    "nodes": [
+      "Cron",
+      "Date & Time",
+      "Function",
+      "Google Calendar",
+      "IF",
+      "Merge",
+      "Set",
+      "Slack"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1277-send-a-daily-summary-of-your-google-calendar-events-to-slack/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Get Email Notifications For Newly Uploaded Google Drive Files",
+    "nodes": [
+      "Google Drive Trigger",
+      "Send Email"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1283-get-email-notifications-for-newly-uploaded-google-drive-files/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Create Zoom Meeting Link From Google Calendar Invite",
+    "nodes": [
+      "Cron",
+      "Date & Time",
+      "Google Calendar",
+      "IF",
+      "Manual Trigger",
+      "Zoom"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1340-create-zoom-meeting-link-from-google-calendar-invite/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Save Telegram Daily Messages To Google Sheets",
+    "nodes": [
+      "Function Item",
+      "Google Sheets",
+      "Telegram Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1388-save-telegram-daily-messages-to-google-sheets/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Collects Images From Web Search Results And Send To Google Sheets",
+    "nodes": [
+      "Aws Rekognition",
+      "Function",
+      "Google Sheets",
+      "HTTP Request",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1395-collects-images-from-web-search-results-and-send-to-google-sheets/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Sync Data Between Google Drive And Aws S3",
+    "nodes": [
+      "Aws S3",
+      "Google Drive Trigger",
+      "Merge"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1396-sync-data-between-google-drive-and-aws-s3/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Collect And Label Images And Send To Google Sheets",
+    "nodes": [
+      "Aws Rekognition",
+      "Google Sheets",
+      "HTTP Request",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1401-collect-and-label-images-and-send-to-google-sheets/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Google Calendar To Slack Status And Philips Hue",
+    "nodes": [
+      "Function",
+      "Google Calendar",
+      "Google Calendar Trigger",
+      "HTTP Request",
+      "Manual Trigger",
+      "Slack",
+      "Switch"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1420-google-calendar-to-slack-status-and-philips-hue/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Convert Json To An Excel File",
+    "nodes": [
+      "Item Lists",
+      "Respond to Webhook",
+      "Spreadsheet File",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1435-convert-json-to-an-excel-file/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Archive Empty Pages In Notion Database",
+    "nodes": [
+      "Cron",
+      "Function",
+      "IF",
+      "Notion",
+      "Split In Batches"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1478-archive-empty-pages-in-notion-database/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Update Time Tracking Projects Based On Syncro Status Changes",
+    "nodes": [
+      "Clockify",
+      "HTTP Request",
+      "IF",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1492-update-time-tracking-projects-based-on-syncro-status-changes/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Export Json File To Google Sheets",
+    "nodes": [
+      "Google Sheets",
+      "Move Binary Data",
+      "Read Binary File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1736-export-json-file-to-google-sheets/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Import Json Data Into Google Sheets And Csv File",
+    "nodes": [
+      "Google Sheets",
+      "HTTP Request",
+      "Set",
+      "Spreadsheet File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1737-import-json-data-into-google-sheets-and-csv-file/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Import Data From Google Sheets Into Mysql",
+    "nodes": [
+      "Cron",
+      "Google Sheets",
+      "My Sql"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1752-import-data-from-google-sheets-into-mysql/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Import Data From Mysql Into Google Sheets",
+    "nodes": [
+      "Cron",
+      "Google Sheets",
+      "My Sql"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1753-import-data-from-mysql-into-google-sheets/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Identify New Google Sheets Rows",
+    "nodes": [
+      "Google Sheets",
+      "IF",
+      "Interval",
+      "Manual Trigger",
+      "No Op",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1754-identify-new-google-sheets-rows/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Google Spreadsheet To Html Variant With Spreadsheet File",
+    "nodes": [
+      "Google Sheets",
+      "Spreadsheet File",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1756-google-spreadsheet-to-html-variant-with-spreadsheet-file/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Google Spreadsheet To Html Variant With Js Function",
+    "nodes": [
+      "Function",
+      "Google Sheets",
+      "Respond to Webhook",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1757-google-spreadsheet-to-html-variant-with-js-function/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Sync Tasks Data Between Notion And Asana",
+    "nodes": [
+      "Asana",
+      "Asana Trigger",
+      "Function",
+      "IF",
+      "Notion"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1769-sync-tasks-data-between-notion-and-asana/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Sync Tasks Automatically From Todoist To Notion",
+    "nodes": [
+      "Notion",
+      "Schedule Trigger",
+      "Todoist"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1778-sync-tasks-automatically-from-todoist-to-notion/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Sync Your Github Issues To Your Notion Database",
+    "nodes": [
+      "Function",
+      "Github Trigger",
+      "IF",
+      "Notion",
+      "Switch"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1804-sync-your-github-issues-to-your-notion-database/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Read Xml File And Store Content In Google Sheets",
+    "nodes": [
+      "Google Sheets",
+      "HTTP Request",
+      "Item Lists",
+      "Manual Trigger",
+      "Merge",
+      "Set",
+      "XML"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1810-read-xml-file-and-store-content-in-google-sheets/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Send Google Drive Files To Notion Database",
+    "nodes": [
+      "Google Drive Trigger",
+      "Notion"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1819-send-google-drive-files-to-notion-database/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Working With Excel Spreadsheet Files Xls Xlsx",
+    "nodes": [
+      "FTP",
+      "Google Drive",
+      "HTTP Request",
+      "Manual Trigger",
+      "Microsoft One Drive",
+      "Read Binary File",
+      "Set",
+      "Spreadsheet File",
+      "Write Binary File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1826-working-with-excel-spreadsheet-files-xls-xlsx/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Sync Jira Issues With Subsequent Comments To Notion Database",
+    "nodes": [
+      "Code",
+      "IF",
+      "Jira Trigger",
+      "Notion",
+      "Switch"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1831-sync-jira-issues-with-subsequent-comments-to-notion-database/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Sync Zendesk Tickets With Subsequent Comments To Github Issues",
+    "nodes": [
+      "Function",
+      "Github",
+      "IF",
+      "Webhook",
+      "Zendesk"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1832-sync-zendesk-tickets-with-subsequent-comments-to-github-issues/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Send New Clockify Invoice To Notion Database",
+    "nodes": [
+      "Notion",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1834-send-new-clockify-invoice-to-notion-database/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Sync Notion Database Pages As Clickup Tasks",
+    "nodes": [
+      "Click Up",
+      "Click Up Trigger",
+      "Notion",
+      "Notion Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1835-sync-notion-database-pages-as-clickup-tasks/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Convert Sql Table Into Excel Spreadsheet",
+    "nodes": [
+      "Manual Trigger",
+      "My Sql",
+      "Set",
+      "Spreadsheet File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1872-convert-sql-table-into-excel-spreadsheet/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Send Specific Pdf Attachments From Gmail To Google Drive Using Openai",
+    "nodes": [
+      "Code",
+      "Gmail Trigger",
+      "Google Drive",
+      "IF",
+      "Merge",
+      "No Op",
+      "Open Ai",
+      "Read P D F",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1897-send-specific-pdf-attachments-from-gmail-to-google-drive-using-openai/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Send A Chatgpt Email Reply And Save Responses To Google Sheets",
+    "nodes": [
+      "Code",
+      "Crypto",
+      "Gmail",
+      "Gmail Trigger",
+      "Google Sheets",
+      "HTML",
+      "IF",
+      "No Op",
+      "Open Ai",
+      "Respond to Webhook",
+      "Set",
+      "Switch",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1898-send-a-chatgpt-email-reply-and-save-responses-to-google-sheets/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Send Alert When Data Is Created In App Database",
+    "nodes": [
+      "Code",
+      "Filter",
+      "Linear Trigger",
+      "Manual Trigger",
+      "Set",
+      "Slack"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1932-send-alert-when-data-is-created-in-app-database/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Send Labeled Email To A Notion Database",
+    "nodes": [
+      "Date & Time",
+      "Gmail",
+      "HTTP Request",
+      "IF",
+      "Merge",
+      "No Op",
+      "Notion",
+      "Notion Trigger",
+      "Schedule Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1939-send-labeled-email-to-a-notion-database/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Sync Discord Scheduled Events To Google Calendar",
+    "nodes": [
+      "Google Calendar",
+      "HTTP Request",
+      "IF",
+      "Schedule Trigger",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1940-sync-discord-scheduled-events-to-google-calendar/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Xml To Sql Database Import",
+    "nodes": [
+      "Code",
+      "Item Lists",
+      "Manual Trigger",
+      "My Sql",
+      "Read Binary Files",
+      "XML"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1948-xml-to-sql-database-import/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Sync Google Sheets Data With Mysql",
+    "nodes": [
+      "Compare Datasets",
+      "Google Sheets",
+      "IF",
+      "Manual Trigger",
+      "My Sql",
+      "No Op",
+      "Schedule Trigger",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1964-sync-google-sheets-data-with-mysql/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Import Multiple Csv To Google Sheets",
+    "nodes": [
+      "Filter",
+      "Google Sheets",
+      "Item Lists",
+      "Manual Trigger",
+      "Read Binary Files",
+      "Set",
+      "Split In Batches",
+      "Spreadsheet File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1968-import-multiple-csv-to-google-sheets/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Import Csv From Url To Google Sheets",
+    "nodes": [
+      "Filter",
+      "Google Sheets",
+      "HTTP Request",
+      "Manual Trigger",
+      "Set",
+      "Spreadsheet File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/1969-import-csv-from-url-to-google-sheets/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Transfer Data From Postgres To Excel",
+    "nodes": [
+      "Postgres",
+      "Spreadsheet File",
+      "Write Binary File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/2-transfer-data-from-postgres-to-excel/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Get Csv From Url And Convert To Excel",
+    "nodes": [
+      "HTTP Request",
+      "Manual Trigger",
+      "Spreadsheet File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/2041-get-csv-from-url-and-convert-to-excel/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Kv Cloudflare Key Value Database Full Api Integration Workflow",
+    "nodes": [
+      "HTTP Request",
+      "Manual Trigger",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/2046-kv-cloudflare-key-value-database-full-api-integration-workflow/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Google Maps Scraper",
+    "nodes": [
+      "Code",
+      "Filter",
+      "Google Sheets",
+      "HTTP Request",
+      "IF",
+      "Item Lists",
+      "Manual Trigger",
+      "Schedule Trigger",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/2063-google-maps-scraper/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Synchronize Your Google Sheets With Postgres",
+    "nodes": [
+      "Compare Datasets",
+      "Google Sheets",
+      "Postgres",
+      "Schedule Trigger",
+      "Split Out"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/2081-synchronize-your-google-sheets-with-postgres/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Streamline Data From An N8n Form Into Google Sheet Airtable And Email Sending",
+    "nodes": [
+      "Airtable",
+      "Code",
+      "Form Trigger",
+      "Gmail",
+      "Google Sheets",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/2087-streamline-data-from-an-n8n-form-into-google-sheet-airtable-and-email-sending/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Chat With A Database Using Ai",
+    "nodes": [
+      "@n8n/langchain.agent",
+      "@n8n/langchain.chat Trigger",
+      "@n8n/langchain.lm Chat Open Ai"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/2090-chat-with-a-database-using-ai/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Add Product Ideas To Google Sheets Via A Slack",
+    "nodes": [
+      "Google Sheets",
+      "HTTP Request",
+      "Set",
+      "Switch",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/2141-add-product-ideas-to-google-sheets-via-a-slack/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Write All Linear Tickets To Google Sheets",
+    "nodes": [
+      "Code",
+      "Google Sheets",
+      "Graphql",
+      "IF",
+      "Schedule Trigger",
+      "Set",
+      "Split Out"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/2148-write-all-linear-tickets-to-google-sheets/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Receive Google Sheet Data Via Rest Api",
+    "nodes": [
+      "Google Sheets",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/226-receive-google-sheet-data-via-rest-api/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Save N8n Cloud Invoices Received In Gmail In Google Drive",
+    "nodes": [
+      "Filter",
+      "Gmail Trigger",
+      "Google Drive",
+      "HTML",
+      "HTTP Request",
+      "IF",
+      "No Op",
+      "Set",
+      "Split Out"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/2393-save-n8n-cloud-invoices-received-in-gmail-in-google-drive/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Generate Seo Keyword Search Volume Data Using Google Api",
+    "nodes": [
+      "HTTP Request",
+      "Manual Trigger",
+      "No Op",
+      "Set",
+      "Split Out"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/2494-generate-seo-keyword-search-volume-data-using-google-api/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Replace Images In Google Docs Documents And Download As Pdf Docx",
+    "nodes": [
+      "Google Drive",
+      "HTTP Request",
+      "Manual Trigger",
+      "No Op",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/2501-replace-images-in-google-docs-documents-and-download-as-pdf-docx/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Send Google Analytics Data To A I To Analyze Then Save Results In Baserow",
+    "nodes": [
+      "Baserow",
+      "Code",
+      "Google Analytics",
+      "HTTP Request",
+      "Manual Trigger",
+      "Schedule Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/2517-send-google-analytics-data-to-a-i-to-analyze-then-save-results-in-baserow/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Automate Google Analytics Reporting",
+    "nodes": [
+      "Code",
+      "Gmail",
+      "Google Analytics",
+      "Manual Trigger",
+      "Schedule Trigger",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/2549-automate-google-analytics-reporting/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Waitlist Form Stored In Googlesheet With Email Verification Step",
+    "nodes": [
+      "Crypto",
+      "Form",
+      "Form Trigger",
+      "Google Sheets",
+      "IF",
+      "Merge",
+      "Send Email",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/2550-waitlist-form-stored-in-googlesheet-with-email-verification-step/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Exponential Backoff For Google Apis",
+    "nodes": [
+      "Code",
+      "Google Sheets",
+      "IF",
+      "Manual Trigger",
+      "Split In Batches",
+      "Stop And Error",
+      "Wait"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/2556-exponential-backoff-for-google-apis/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Generate And Insert Data Into A Postgres Database",
+    "nodes": [
+      "Cron",
+      "Function",
+      "Postgres"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/356-generate-and-insert-data-into-a-postgres-database/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Send Sms Alerts Based On Database Queries Twilio And Postgres",
+    "nodes": [
+      "Cron",
+      "Postgres",
+      "Set",
+      "Twilio"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/357-send-sms-alerts-based-on-database-queries-twilio-and-postgres/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Add A Task To Google Tasks",
+    "nodes": [
+      "Google Tasks",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/428-add-a-task-to-google-tasks/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Download A File From Google Drive",
+    "nodes": [
+      "Google Drive",
+      "Manual Trigger",
+      "Write Binary File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/515-download-a-file-from-google-drive/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Get All Excel Workbooks",
+    "nodes": [
+      "Manual Trigger",
+      "Microsoft Excel"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/566-get-all-excel-workbooks/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Sync Data Between Multiple Google Spreadsheets",
+    "nodes": [
+      "Cron",
+      "Google Sheets"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/6-sync-data-between-multiple-google-spreadsheets/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Insert And Read Data From Google Sheets",
+    "nodes": [
+      "Google Sheets",
+      "Manual Trigger",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/600-insert-and-read-data-from-google-sheets/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Transform Data In Google Sheets",
+    "nodes": [
+      "Google Sheets",
+      "Manual Trigger",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/694-transform-data-in-google-sheets/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Automated Congratulations With Google Sheets Twilio And N8n",
+    "nodes": [
+      "Cron",
+      "Function",
+      "Google Sheets",
+      "IF",
+      "Merge",
+      "No Op",
+      "Twilio"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/770-automated-congratulations-with-google-sheets-twilio-and-n8n/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Create Update And Get A Document In Google Cloud Firestore",
+    "nodes": [
+      "Google Firebase Cloud Firestore",
+      "Manual Trigger",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/839-create-update-and-get-a-document-in-google-cloud-firestore/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Monitor Changes In Google Sheets Every 45 Mins",
+    "nodes": [
+      "Function",
+      "Google Sheets",
+      "Interval",
+      "Mattermost"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/864-monitor-changes-in-google-sheets-every-45-mins/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Read In An Excel Spreadsheet File",
+    "nodes": [
+      "Manual Trigger",
+      "Read Binary File",
+      "Spreadsheet File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/890-read-in-an-excel-spreadsheet-file/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Transfer Google Analytics Data To Airtable Database",
+    "nodes": [
+      "Airtable",
+      "Google Analytics",
+      "Manual Trigger",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/892-transfer-google-analytics-data-to-airtable-database/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Load Data Into Spreadsheet Or Database",
+    "nodes": [
+      "Function",
+      "Manual Trigger",
+      "No Op",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/980-load-data-into-spreadsheet-or-database/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Excel To Postgres",
+    "nodes": [
+      "Postgres",
+      "Read Binary File",
+      "Spreadsheet File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/excel-to-postgres/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Google Sheets To Dropbox",
+    "nodes": [
+      "Dropbox",
+      "Google Sheets",
+      "Interval",
+      "Spreadsheet File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-integration/google-sheets-to-dropbox/workflow.json",
+    "category": "data-integration"
+  },
+  {
+    "name": "Etl Pipeline For Text Processing",
+    "nodes": [
+      "Cron",
+      "Google Cloud Natural Language",
+      "IF",
+      "Mongo Db",
+      "No Op",
+      "Postgres",
+      "Set",
+      "Slack",
+      "Twitter"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-transformation/1045-etl-pipeline-for-text-processing/workflow.json",
+    "category": "data-transformation"
+  },
+  {
+    "name": "Transform Xml Data And Upload To Dropbox",
+    "nodes": [
+      "Dropbox",
+      "HTTP Request",
+      "Set",
+      "XML"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-transformation/13-transform-xml-data-and-upload-to-dropbox/workflow.json",
+    "category": "data-transformation"
+  },
+  {
+    "name": "Convert Filemaker Data Api To Flat File Array",
+    "nodes": [
+      "Function",
+      "Function Item",
+      "Item Lists"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-transformation/1537-convert-filemaker-data-api-to-flat-file-array/workflow.json",
+    "category": "data-transformation"
+  },
+  {
+    "name": "Convert Xml To Json",
+    "nodes": [
+      "Manual Trigger",
+      "Set",
+      "XML"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-transformation/160-convert-xml-to-json/workflow.json",
+    "category": "data-transformation"
+  },
+  {
+    "name": "Convert Postgresql Table To Csv",
+    "nodes": [
+      "Manual Trigger",
+      "Postgres",
+      "Set",
+      "Spreadsheet File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-transformation/1902-convert-postgresql-table-to-csv/workflow.json",
+    "category": "data-transformation"
+  },
+  {
+    "name": "Convert Image Urls To An Uploaded Attachment In Airtable",
+    "nodes": [
+      "Airtable",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-transformation/2037-convert-image-urls-to-an-uploaded-attachment-in-airtable/workflow.json",
+    "category": "data-transformation"
+  },
+  {
+    "name": "Convert An Xml File To Json Via Webhook Call",
+    "nodes": [
+      "Extract From File",
+      "Respond to Webhook",
+      "Set",
+      "Slack",
+      "Switch",
+      "Webhook",
+      "XML"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-transformation/2222-convert-an-xml-file-to-json-via-webhook-call/workflow.json",
+    "category": "data-transformation"
+  },
+  {
+    "name": "Convert Docx To Pdf Using Convertapi",
+    "nodes": [
+      "HTTP Request",
+      "Manual Trigger",
+      "Read Write File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-transformation/2294-convert-docx-to-pdf-using-convertapi/workflow.json",
+    "category": "data-transformation"
+  },
+  {
+    "name": "Convert Docx From Url To Pdf Using Convertapi",
+    "nodes": [
+      "HTTP Request",
+      "Manual Trigger",
+      "Read Write File",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-transformation/2297-convert-docx-from-url-to-pdf-using-convertapi/workflow.json",
+    "category": "data-transformation"
+  },
+  {
+    "name": "Merge Pdf Files Using Convertapi",
+    "nodes": [
+      "HTTP Request",
+      "Manual Trigger",
+      "Read Write File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-transformation/2298-merge-pdf-files-using-convertapi/workflow.json",
+    "category": "data-transformation"
+  },
+  {
+    "name": "Convert Xlsx To Pdf Using Convertapi",
+    "nodes": [
+      "HTTP Request",
+      "Manual Trigger",
+      "Read Write File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-transformation/2304-convert-xlsx-to-pdf-using-convertapi/workflow.json",
+    "category": "data-transformation"
+  },
+  {
+    "name": "Convert Pptx To Pdf Using Convertapi",
+    "nodes": [
+      "HTTP Request",
+      "Manual Trigger",
+      "Read Write File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-transformation/2305-convert-pptx-to-pdf-using-convertapi/workflow.json",
+    "category": "data-transformation"
+  },
+  {
+    "name": "Protect Pdf With The Password Using Convertapi",
+    "nodes": [
+      "Google Drive",
+      "HTTP Request",
+      "Manual Trigger",
+      "Read Write File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-transformation/2306-protect-pdf-with-the-password-using-convertapi/workflow.json",
+    "category": "data-transformation"
+  },
+  {
+    "name": "Convert Airtable Rich Text Markdown Field To Html",
+    "nodes": [
+      "Airtable",
+      "IF",
+      "Markdown",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-transformation/2308-convert-airtable-rich-text-markdown-field-to-html/workflow.json",
+    "category": "data-transformation"
+  },
+  {
+    "name": "Convert Web Page To Pdf Using Convertapi",
+    "nodes": [
+      "HTTP Request",
+      "Manual Trigger",
+      "Read Write File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-transformation/2310-convert-web-page-to-pdf-using-convertapi/workflow.json",
+    "category": "data-transformation"
+  },
+  {
+    "name": "Convert Html To Pdf Using Convertapi",
+    "nodes": [
+      "Code",
+      "HTTP Request",
+      "Manual Trigger",
+      "Read Write File",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-transformation/2314-convert-html-to-pdf-using-convertapi/workflow.json",
+    "category": "data-transformation"
+  },
+  {
+    "name": "Convert Image To Pdf Using Convertapi",
+    "nodes": [
+      "HTTP Request",
+      "Manual Trigger",
+      "Read Write File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-transformation/2316-convert-image-to-pdf-using-convertapi/workflow.json",
+    "category": "data-transformation"
+  },
+  {
+    "name": "Convert Pdf To Pdfa Using Convertapi",
+    "nodes": [
+      "HTTP Request",
+      "Manual Trigger",
+      "Read Write File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-transformation/2317-convert-pdf-to-pdfa-using-convertapi/workflow.json",
+    "category": "data-transformation"
+  },
+  {
+    "name": "Convert Baserow Rich Text Markdown Field To Html",
+    "nodes": [
+      "Baserow",
+      "IF",
+      "Markdown",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-transformation/2345-convert-baserow-rich-text-markdown-field-to-html/workflow.json",
+    "category": "data-transformation"
+  },
+  {
+    "name": "Convert Image Files Jpg Png Jpeg To Urls And Reduce File Size With Resmush It And Imgbb",
+    "nodes": [
+      "@n8n/langchain.open Ai",
+      "HTTP Request",
+      "No Op",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-transformation/2513-convert-image-files-jpg-png-jpeg-to-urls-and-reduce-file-size-with-resmush-it-and-imgbb/workflow.json",
+    "category": "data-transformation"
+  },
+  {
+    "name": "Convert A Date From One Format To Another",
+    "nodes": [
+      "Date & Time",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-transformation/575-convert-a-date-from-one-format-to-another/workflow.json",
+    "category": "data-transformation"
+  },
+  {
+    "name": "Convert The Json Data Received From The Cocktaildb Api In Xml",
+    "nodes": [
+      "HTTP Request",
+      "Manual Trigger",
+      "XML"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-transformation/661-convert-the-json-data-received-from-the-cocktaildb-api-in-xml/workflow.json",
+    "category": "data-transformation"
+  },
+  {
+    "name": "Convert An Array Into An Array Of Objects",
+    "nodes": [
+      "Function"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-transformation/763-convert-an-array-into-an-array-of-objects/workflow.json",
+    "category": "data-transformation"
+  },
+  {
+    "name": "Xml To Dropbox",
+    "nodes": [
+      "Dropbox",
+      "HTTP Request",
+      "Set",
+      "XML"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/data-transformation/xml-to-dropbox/workflow.json",
+    "category": "data-transformation"
+  },
+  {
+    "name": "Create An Event File And Send It As An Email Attachment",
+    "nodes": [
+      "I Cal",
+      "Manual Trigger",
+      "Send Email"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/document-processing/1083-create-an-event-file-and-send-it-as-an-email-attachment/workflow.json",
+    "category": "document-processing"
+  },
+  {
+    "name": "Send A File From S3 To Aws Textract",
+    "nodes": [
+      "Aws S3",
+      "Aws Textract",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/document-processing/1282-send-a-file-from-s3-to-aws-textract/workflow.json",
+    "category": "document-processing"
+  },
+  {
+    "name": "Create A Document In Outline For Each New Gitlab Release",
+    "nodes": [
+      "Gitlab Trigger",
+      "HTTP Request",
+      "IF"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/document-processing/1375-create-a-document-in-outline-for-each-new-gitlab-release/workflow.json",
+    "category": "document-processing"
+  },
+  {
+    "name": "Transcribe Audio Files From Cloud Storage",
+    "nodes": [
+      "Aws S3",
+      "Aws Transcribe",
+      "Google Drive Trigger",
+      "Google Sheets",
+      "Set",
+      "Wait"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/document-processing/1394-transcribe-audio-files-from-cloud-storage/workflow.json",
+    "category": "document-processing"
+  },
+  {
+    "name": "Simple File Based Key Value Store Writekey",
+    "nodes": [
+      "Function Item",
+      "IF",
+      "Manual Trigger",
+      "Move Binary Data",
+      "Read Binary Files",
+      "Split In Batches",
+      "Write Binary File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/document-processing/1407-simple-file-based-key-value-store-writekey/workflow.json",
+    "category": "document-processing"
+  },
+  {
+    "name": "Simple File Based Key Value Store Getkey",
+    "nodes": [
+      "Function Item",
+      "Manual Trigger",
+      "Move Binary Data",
+      "Read Binary File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/document-processing/1408-simple-file-based-key-value-store-getkey/workflow.json",
+    "category": "document-processing"
+  },
+  {
+    "name": "Export Csv File To Json",
+    "nodes": [
+      "Manual Trigger",
+      "Move Binary Data",
+      "Read Binary File",
+      "Spreadsheet File",
+      "Write Binary File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/document-processing/1731-export-csv-file-to-json/workflow.json",
+    "category": "document-processing"
+  },
+  {
+    "name": "Import A Json File From Gmail Into A Spreadsheet",
+    "nodes": [
+      "Gmail",
+      "Move Binary Data",
+      "Spreadsheet File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/document-processing/1734-import-a-json-file-from-gmail-into-a-spreadsheet/workflow.json",
+    "category": "document-processing"
+  },
+  {
+    "name": "Transfer Json Data To Csv File",
+    "nodes": [
+      "Google Sheets",
+      "Move Binary Data",
+      "Read Binary File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/document-processing/1791-transfer-json-data-to-csv-file/workflow.json",
+    "category": "document-processing"
+  },
+  {
+    "name": "Export Sql Table Into Csv File",
+    "nodes": [
+      "Manual Trigger",
+      "Microsoft Sql",
+      "Set",
+      "Spreadsheet File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/document-processing/1914-export-sql-table-into-csv-file/workflow.json",
+    "category": "document-processing"
+  },
+  {
+    "name": "Respond With File Download To Incoming Http Request",
+    "nodes": [
+      "HTTP Request",
+      "Respond to Webhook",
+      "Webhook"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/document-processing/1920-respond-with-file-download-to-incoming-http-request/workflow.json",
+    "category": "document-processing"
+  },
+  {
+    "name": "Push Json Data Into An App Or To Spreadsheet File",
+    "nodes": [
+      "Google Sheets",
+      "HTTP Request",
+      "Manual Trigger",
+      "Set",
+      "Spreadsheet File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/document-processing/1933-push-json-data-into-an-app-or-to-spreadsheet-file/workflow.json",
+    "category": "document-processing"
+  },
+  {
+    "name": "Push And Update Files In Github",
+    "nodes": [
+      "Code",
+      "Execute Command",
+      "Git",
+      "Github",
+      "Manual Trigger",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/document-processing/1942-push-and-update-files-in-github/workflow.json",
+    "category": "document-processing"
+  },
+  {
+    "name": "Create 2 Xml Files With And Without Xml Attributes",
+    "nodes": [
+      "Item Lists",
+      "Manual Trigger",
+      "Move Binary Data",
+      "My Sql",
+      "Set",
+      "Write Binary File",
+      "XML"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/document-processing/1949-create-2-xml-files-with-and-without-xml-attributes/workflow.json",
+    "category": "document-processing"
+  },
+  {
+    "name": "Prepare Csv Files With Gpt 4",
+    "nodes": [
+      "Item Lists",
+      "Manual Trigger",
+      "Move Binary Data",
+      "Open Ai",
+      "Set",
+      "Split In Batches",
+      "Spreadsheet File",
+      "Write Binary File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/document-processing/1967-prepare-csv-files-with-gpt-4/workflow.json",
+    "category": "document-processing"
+  },
+  {
+    "name": "Download And Compress Folder From S3 To Zip File",
+    "nodes": [
+      "Aggregate",
+      "Aws S3",
+      "Compression",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/document-processing/2451-download-and-compress-folder-from-s3-to-zip-file/workflow.json",
+    "category": "document-processing"
+  },
+  {
+    "name": "Upsert Huge Documents In A Vector Store With Supabase And Notion",
+    "nodes": [
+      "@n8n/langchain.chain Retrieval Qa",
+      "@n8n/langchain.chat Trigger",
+      "@n8n/langchain.document Default Data Loader",
+      "@n8n/langchain.embeddings Open Ai",
+      "@n8n/langchain.lm Chat Open Ai",
+      "@n8n/langchain.retriever Vector Store",
+      "@n8n/langchain.text Splitter Token Splitter",
+      "@n8n/langchain.vector Store Supabase",
+      "Limit",
+      "No Op",
+      "Notion",
+      "Notion Trigger",
+      "Schedule Trigger",
+      "Split In Batches",
+      "Summarize",
+      "Supabase"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/document-processing/2568-upsert-huge-documents-in-a-vector-store-with-supabase-and-notion/workflow.json",
+    "category": "document-processing"
+  },
+  {
+    "name": "Ai Agent To Chat With Files In Supabase Storage",
+    "nodes": [
+      "@n8n/langchain.agent",
+      "@n8n/langchain.chat Trigger",
+      "@n8n/langchain.document Default Data Loader",
+      "@n8n/langchain.embeddings Open Ai",
+      "@n8n/langchain.lm Chat Open Ai",
+      "@n8n/langchain.text Splitter Recursive Character Text Splitter",
+      "@n8n/langchain.tool Vector Store",
+      "@n8n/langchain.vector Store Supabase",
+      "Aggregate",
+      "Extract From File",
+      "HTTP Request",
+      "IF",
+      "Manual Trigger",
+      "Merge",
+      "Split In Batches",
+      "Supabase",
+      "Switch"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/document-processing/2621-ai-agent-to-chat-with-files-in-supabase-storage/workflow.json",
+    "category": "document-processing"
+  },
+  {
+    "name": "Get The Community Profile Of A Repository",
+    "nodes": [
+      "Github",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/document-processing/450-get-the-community-profile-of-a-repository/workflow.json",
+    "category": "document-processing"
+  },
+  {
+    "name": "Insert A Document In Mongodb",
+    "nodes": [
+      "Manual Trigger",
+      "Mongo Db",
+      "Set"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/document-processing/503-insert-a-document-in-mongodb/workflow.json",
+    "category": "document-processing"
+  },
+  {
+    "name": "Read A File From Disk",
+    "nodes": [
+      "Manual Trigger",
+      "Read Binary File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/document-processing/577-read-a-file-from-disk/workflow.json",
+    "category": "document-processing"
+  },
+  {
+    "name": "Read Multiple Files From Disk",
+    "nodes": [
+      "Manual Trigger",
+      "Read Binary Files"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/document-processing/578-read-multiple-files-from-disk/workflow.json",
+    "category": "document-processing"
+  },
+  {
+    "name": "Extract Text From A Pdf File",
+    "nodes": [
+      "Manual Trigger",
+      "Read Binary File",
+      "Read P D F"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/document-processing/585-extract-text-from-a-pdf-file/workflow.json",
+    "category": "document-processing"
+  },
+  {
+    "name": "Read A Spreadsheet File",
+    "nodes": [
+      "Manual Trigger",
+      "Read Binary File",
+      "Spreadsheet File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/document-processing/586-read-a-spreadsheet-file/workflow.json",
+    "category": "document-processing"
+  },
+  {
+    "name": "Write A File To The Host Machine",
+    "nodes": [
+      "HTTP Request",
+      "Manual Trigger",
+      "Write Binary File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/document-processing/590-write-a-file-to-the-host-machine/workflow.json",
+    "category": "document-processing"
+  },
+  {
+    "name": "Download A File And Upload It To An Ftp Server",
+    "nodes": [
+      "FTP",
+      "HTTP Request",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/document-processing/663-download-a-file-and-upload-it-to-an-ftp-server/workflow.json",
+    "category": "document-processing"
+  },
+  {
+    "name": "Manage Files In S3",
+    "nodes": [
+      "HTTP Request",
+      "Manual Trigger",
+      "S3"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/document-processing/674-manage-files-in-s3/workflow.json",
+    "category": "document-processing"
+  },
+  {
+    "name": "Compress Binary Files To Zip Format",
+    "nodes": [
+      "Compression",
+      "Dropbox",
+      "HTTP Request",
+      "Manual Trigger"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/document-processing/908-compress-binary-files-to-zip-format/workflow.json",
+    "category": "document-processing"
+  },
+  {
+    "name": "Execute Multiple Command Lines Based On Text File Inputs",
+    "nodes": [
+      "Execute Command",
+      "Function",
+      "IF",
+      "Manual Trigger",
+      "Move Binary Data",
+      "No Op",
+      "Read Binary File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/document-processing/913-execute-multiple-command-lines-based-on-text-file-inputs/workflow.json",
+    "category": "document-processing"
+  },
+  {
+    "name": "Monitor A File For Changes And Send An Alert",
+    "nodes": [
+      "Cron",
+      "Function",
+      "IF",
+      "Move Binary Data",
+      "Read Binary File",
+      "Signl4",
+      "Write Binary File"
+    ],
+    "fileUrl": "https://github.com/Anima-t3d/n8n-workflows/blob/main/document-processing/967-monitor-a-file-for-changes-and-send-an-alert/workflow.json",
+    "category": "document-processing"
+  }
+]

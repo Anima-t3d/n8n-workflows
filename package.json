@@ -1,0 +1,23 @@
+{
+  "name": "n8n-workflows-search",
+  "version": "1.0.0",
+  "description": "A searchable and filterable website for n8n workflows",
+  "main": "build-index.js",
+  "scripts": {
+    "build": "node build-index.js",
+    "serve": "cd public && python3 -m http.server 8000",
+    "dev": "npm run build && npm run serve"
+  },
+  "keywords": [
+    "n8n",
+    "workflows",
+    "automation",
+    "search",
+    "static-site"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
